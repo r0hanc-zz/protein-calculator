@@ -1,0 +1,287 @@
+<style>
+    @media screen and (max-width: 1020px) {
+      #container, #header, #content, #footer {
+        float: none;
+        width: auto;
+      }
+     #subtitle, #share, #slider, #sidebar{
+        display:none;
+      }
+      p{ font-size: 2em; }
+    }
+    h2
+    {
+      color: 0D62FF;
+      font-family: Impact, Charcoal, sans-serif;
+    }
+    
+    body
+    {
+      background-color: f1f1f1;
+    }
+    
+    #results_table
+    {
+      color: 0D62FF;
+    }
+    
+    #input_table
+    {
+      color: black;
+    }
+    
+    #results_button
+    {
+      color: white;
+      background-color: 0D62FF;
+      border-radius: 12px;
+      padding-left: 10px;
+      padding-right: 10px;
+      border: none;
+    }
+    
+    #results_button:hover
+    {
+      color: 0D62FF;
+      background-color: white;
+      border: 1px;
+      border-color: black;
+      border: solid;
+    }
+    
+    #weight_output_td
+    {
+      color: black;
+    }
+    
+    #bodyfat_output_td
+    {
+      color: black;
+    }
+    #lbm_output_td
+    {
+      color: black;
+    }
+    #week_output_td
+    {
+      color: black;
+    }
+    
+    #protein_output_td
+    {
+      color: black;
+    }
+    
+    #carbs_output_td
+    {
+      color: black;
+    }
+    
+    #carbs2_output_td
+    {
+      color: black;
+    }
+    
+    </style>
+    <h2>Nutrition Calculator</h2>
+    
+    <table id="input_table" class="hct-lbm_calculator">
+    <tbody>
+    <tr>
+    <td colspan="2">
+    <form>Week:
+    <select id="week_field" name="weekselect" style="width: 150px !important;">
+    <option selected>WEEK 1</option>
+    <option>WEEK 2</option>
+    <option>WEEK 3</option>
+    <option>WEEK 4</option>
+    <option>WEEK 5</option>
+    <option>WEEK 6</option>
+    <option>WEEK 7</option>
+    <option>WEEK 8 (Day 1-2)</option>
+    <option>WEEK 8 (Day 3-4)</option>
+    <option>WEEK 8 (Day 5-6)</option>
+    <option>WEEK 8 (Day 7)</option>
+    </select>
+    </form>
+    </td>
+    </tr>
+    <tr id="xxx">
+    <td>Weight: <input id="weight_field" maxlength="5" name="weight" size="5" type="text"> Pounds</td>
+    <td>Percent Bodyfat: <input id="bodyfat_field" maxlength="4" name="weight" size="4" type="text"> %</td>
+    </tr>
+    <tr>
+    <td></td>
+    <td style="text-align: right;"><input id="results_button" type="button" value="Calculate" class="hct-submit" onclick="nutritioncalcFunction();"></td>
+    </tr>
+    </tbody>
+    </table>
+    <h3>Results</h3>
+    
+    <table id="results_table" class="hct-lbm_table">
+    <tbody>
+    <tr>
+    <td><strong>Weight:</strong></td>
+    <td id="weight_output_td">
+    <span id="weight_output">0</span> pounds</td>
+    </tr>
+    <tr>
+    <td><strong>Body Fat Percentage:</strong></td>
+    <td id="bodyfat_output_td">
+    <span id="bodyfat_output">0</span> %</td>
+    </tr>
+    <tr>
+    <td><strong>Lean Body Mass:</strong></td>
+    <td id="lbm_output_td">
+    <span id="lbm_output">0</span> pounds</td>
+    </tr>
+    <tr>
+    <td><strong>For Week:</strong></td>
+    <td id="week_output_td"><span id="week_output">Select a Week</span></td>
+    </tr>
+    <tr>
+    <td><strong>PROTEIN:</strong></td>
+    <td id="protein_output_td">
+    <span id="protein">0</span> g of lean protein per day.<br> <em><span id="protein_factor"></span> </em>
+    </td>
+    </tr>
+    <tr>
+    <td><strong>CARBS (Training Day):</strong></td>
+    <td id="carbs_output_td">
+    <span id="carbs">0</span> g of starch carbs daily.<br> <em><span id="carb_factor"></span> </em>
+    </td>
+    </tr>
+    <tr>
+    <td><strong>CARBS (Active Rest Day):</strong></td>
+    <td id="carbs2_output_td">
+    <span id="carbs2">0</span> g of starch carbs daily.<br> <em><span id="carb2_factor"></span></em>
+    </td>
+    </tr>
+    
+    </tbody>
+    </table>
+    
+    <script>// <![CDATA[
+    function nutritioncalcFunction() 
+    { 
+      var weight = document.getElementById("weight_field").value;
+      var week = document.getElementById("week_field").value; 
+      var bodyfat = document.getElementById("bodyfat_field").value; 	
+      
+      if (! isNaN(bodyfat))
+      { 			
+        var bodyfat_dec = bodyfat/100; 	
+      }
+      
+      else
+      { 		
+        alert("Bodyfat Percentage must be a number"); 			
+        return false; 		
+      }
+      
+      if (bodyfat <0 || bodyfat > 100 )
+      { 			
+        alert("Bodyfat Percentage must be a percentage"); 		
+        return false;
+      }	 	 	 
+      
+      if (isNaN(weight))
+      { 		
+        alert("Weight must be in Pounds"); 	
+        return false;
+      }
+      
+      var lbm = weight - ( weight * bodyfat_dec); 	 
+      
+      if (week == "WEEK 1") 
+      {
+        var protein_factor = 1.28;
+        var carb_factor = 0.98;
+        var carb2_factor = 0.85; 
+      }	 	
+      
+      if (week == "WEEK 2")
+      { var protein_factor = 1.28;
+        var carb_factor = 0.98;
+        var carb2_factor = 0.85;
+      }	 	
+      
+      if (week == "WEEK 3") 
+      {
+        var protein_factor = 1.25;
+        var carb_factor = 0.89;
+        var carb2_factor = 0.78; 
+      }	 	
+      
+      if (week == "WEEK 4") 
+      {
+        var protein_factor = 1.25;
+        var carb_factor = 0.89;
+        var carb2_factor = 0.78; 
+      }	 	
+      
+      if (week == "WEEK 5") {
+        var protein_factor = 1.23;
+        var carb_factor = 0.76;
+        var carb2_factor = 0.68; 
+      }	 
+      
+      if (week == "WEEK 6") 
+      {
+        var protein_factor = 1.23;
+        var carb_factor = 0.76;
+        var carb2_factor = 0.68; 
+      }	 
+      
+      if (week == "WEEK 7")
+      {
+        var protein_factor = 1.21;
+        var carb_factor = 0.71;
+        var carb2_factor = 0.57;
+      }	 
+      
+      if (week == "WEEK 8 (Day 1-2)") 
+      {
+        var protein_factor = 1.18;
+        var carb_factor = 0.55;
+        var carb2_factor = 0.55; 
+      }	 
+      
+      if (week == "WEEK 8 (Day 3-4)") 
+      {
+        var protein_factor = 1.18;
+        var carb_factor = 0.47;
+        var carb2_factor = 0.47;
+      }	 	
+      
+      if (week == "WEEK 8 (Day 5-6)")
+      {
+        var protein_factor = 1.18;
+        var carb_factor = 0.38;
+        var carb2_factor = 0.38; 
+      }	 
+      
+      if (week == "WEEK 8 (Day 7)") 
+      {
+        var protein_factor = 1.18;
+        var carb_factor = 0.98;
+        var carb2_factor = 0.98;
+      } 	
+      
+      var protein = protein_factor * lbm; 
+      var carbs = carb_factor * lbm; 
+      var carbs2 = carb2_factor * lbm; 
+      
+      console.log("PROTEIN:" + protein ); 	 
+      document.getElementById("bodyfat_output").innerHTML = bodyfat; 	
+      document.getElementById("weight_output").innerHTML = weight; 	
+      document.getElementById("week_output").innerHTML = week;	 	
+      document.getElementById("lbm_output").innerHTML = lbm.toFixed(1); 	
+      document.getElementById("protein_factor").innerHTML = ""; 	
+      document.getElementById("carb_factor").innerHTML = ""; 
+      document.getElementById("carb2_factor").innerHTML = ""; 	
+      document.getElementById("protein").innerHTML = Math.round(protein,-2); 	
+      document.getElementById("carbs").innerHTML = Math.round(carbs,-2); 
+      document.getElementById("carbs2").innerHTML = Math.round(carbs2,-2); 	
+    }
+    // ]]></script>
