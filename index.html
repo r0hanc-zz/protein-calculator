@@ -1,287 +1,248 @@
-<style>
-    @media screen and (max-width: 1020px) {
-      #container, #header, #content, #footer {
-        float: none;
-        width: auto;
-      }
-     #subtitle, #share, #slider, #sidebar{
-        display:none;
-      }
-      p{ font-size: 2em; }
-    }
-    h2
-    {
-      color: 0D62FF;
-      font-family: Impact, Charcoal, sans-serif;
-    }
-    
-    body
-    {
-      background-color: f1f1f1;
-    }
-    
-    #results_table
-    {
-      color: 0D62FF;
-    }
-    
-    #input_table
-    {
-      color: black;
-    }
-    
-    #results_button
-    {
-      color: white;
-      background-color: 0D62FF;
-      border-radius: 12px;
-      padding-left: 10px;
-      padding-right: 10px;
-      border: none;
-    }
-    
-    #results_button:hover
-    {
-      color: 0D62FF;
-      background-color: white;
-      border: 1px;
-      border-color: black;
-      border: solid;
-    }
-    
-    #weight_output_td
-    {
-      color: black;
-    }
-    
-    #bodyfat_output_td
-    {
-      color: black;
-    }
-    #lbm_output_td
-    {
-      color: black;
-    }
-    #week_output_td
-    {
-      color: black;
-    }
-    
-    #protein_output_td
-    {
-      color: black;
-    }
-    
-    #carbs_output_td
-    {
-      color: black;
-    }
-    
-    #carbs2_output_td
-    {
-      color: black;
-    }
-    
-    </style>
-    <h2>Nutrition Calculator</h2>
-    
-    <table id="input_table" class="hct-lbm_calculator">
-    <tbody>
-    <tr style="display: none;">
-    <td colspan="2">
-    <form>Week:
-    <select  id="week_field" name="weekselect" style="width: 150px !important;">
-    <option selected>WEEK 1</option>
-    <option>WEEK 2</option>
-    <option>WEEK 3</option>
-    <option>WEEK 4</option>
-    <option>WEEK 5</option>
-    <option>WEEK 6</option>
-    <option>WEEK 7</option>
-    <option>WEEK 8 (Day 1-2)</option>
-    <option>WEEK 8 (Day 3-4)</option>
-    <option>WEEK 8 (Day 5-6)</option>
-    <option>WEEK 8 (Day 7)</option>
-    </select>
-    </form>
-    </td>
-    </tr>
-    <tr id="xxx">
-    <td>Weight: <input id="weight_field" maxlength="5" name="weight" size="5" type="text"> Pounds</td>
-    <td>Percent Bodyfat: <input id="bodyfat_field" maxlength="4" name="weight" size="4" type="text"> %</td>
-    </tr>
-    <tr>
-    <td></td>
-    <td style="text-align: right;"><input id="results_button" type="button" value="Calculate" class="hct-submit" onclick="nutritioncalcFunction();"></td>
-    </tr>
-    </tbody>
-    </table>
-    <h3>Results</h3>
-    
-    <table id="results_table" class="hct-lbm_table">
-    <tbody>
-    <tr>
-    <td><strong>Weight:</strong></td>
-    <td id="weight_output_td">
-    <span id="weight_output">0</span> pounds</td>
-    </tr>
-    <tr>
-    <td><strong>Body Fat Percentage:</strong></td>
-    <td id="bodyfat_output_td">
-    <span id="bodyfat_output">0</span> %</td>
-    </tr>
-    <tr>
-    <td><strong>Lean Body Mass:</strong></td>
-    <td id="lbm_output_td">
-    <span id="lbm_output">0</span> pounds</td>
-    </tr>
-    <tr>
-    <td><strong>For Week:</strong></td>
-    <td id="week_output_td"><span id="week_output">Select a Week</span></td>
-    </tr>
-    <tr>
-    <td><strong>PROTEIN:</strong></td>
-    <td id="protein_output_td">
-    <span id="protein">0</span> g of lean protein per day.<br> <em><span id="protein_factor"></span> </em>
-    </td>
-    </tr>
-    <tr>
-    <td><strong>CARBS (Training Day):</strong></td>
-    <td id="carbs_output_td">
-    <span id="carbs">0</span> g of starch carbs daily.<br> <em><span id="carb_factor"></span> </em>
-    </td>
-    </tr>
-    <tr>
-    <td><strong>CARBS (Active Rest Day):</strong></td>
-    <td id="carbs2_output_td">
-    <span id="carbs2">0</span> g of starch carbs daily.<br> <em><span id="carb2_factor"></span></em>
-    </td>
-    </tr>
-    
-    </tbody>
-    </table>
-    
-    <script>// <![CDATA[
-    function nutritioncalcFunction() 
-    { 
-      var weight = document.getElementById("weight_field").value;
-      var week = document.getElementById("week_field").value; 
-      var bodyfat = document.getElementById("bodyfat_field").value; 	
-      
-      if (! isNaN(bodyfat))
-      { 			
-        var bodyfat_dec = bodyfat/100; 	
-      }
-      
-      else
-      { 		
-        alert("Bodyfat Percentage must be a number"); 			
-        return false; 		
-      }
-      
-      if (bodyfat <0 || bodyfat > 100 )
-      { 			
-        alert("Bodyfat Percentage must be a percentage"); 		
-        return false;
-      }	 	 	 
-      
-      if (isNaN(weight))
-      { 		
-        alert("Weight must be in Pounds"); 	
-        return false;
-      }
-      
-      var lbm = weight - ( weight * bodyfat_dec); 	 
-      
-      if (week == "WEEK 1") 
-      {
-        var protein_factor = 1.28;
-        var carb_factor = 0.98;
-        var carb2_factor = 0.85; 
-      }	 	
-      
-      if (week == "WEEK 2")
-      { var protein_factor = 1.28;
-        var carb_factor = 0.98;
-        var carb2_factor = 0.85;
-      }	 	
-      
-      if (week == "WEEK 3") 
-      {
-        var protein_factor = 1.25;
-        var carb_factor = 0.89;
-        var carb2_factor = 0.78; 
-      }	 	
-      
-      if (week == "WEEK 4") 
-      {
-        var protein_factor = 1.25;
-        var carb_factor = 0.89;
-        var carb2_factor = 0.78; 
-      }	 	
-      
-      if (week == "WEEK 5") {
-        var protein_factor = 1.23;
-        var carb_factor = 0.76;
-        var carb2_factor = 0.68; 
-      }	 
-      
-      if (week == "WEEK 6") 
-      {
-        var protein_factor = 1.23;
-        var carb_factor = 0.76;
-        var carb2_factor = 0.68; 
-      }	 
-      
-      if (week == "WEEK 7")
-      {
-        var protein_factor = 1.21;
-        var carb_factor = 0.71;
-        var carb2_factor = 0.57;
-      }	 
-      
-      if (week == "WEEK 8 (Day 1-2)") 
-      {
-        var protein_factor = 1.18;
-        var carb_factor = 0.55;
-        var carb2_factor = 0.55; 
-      }	 
-      
-      if (week == "WEEK 8 (Day 3-4)") 
-      {
-        var protein_factor = 1.18;
-        var carb_factor = 0.47;
-        var carb2_factor = 0.47;
-      }	 	
-      
-      if (week == "WEEK 8 (Day 5-6)")
-      {
-        var protein_factor = 1.18;
-        var carb_factor = 0.38;
-        var carb2_factor = 0.38; 
-      }	 
-      
-      if (week == "WEEK 8 (Day 7)") 
-      {
-        var protein_factor = 1.18;
-        var carb_factor = 0.98;
-        var carb2_factor = 0.98;
-      } 	
-      
-      var protein = protein_factor * lbm; 
-      var carbs = carb_factor * lbm; 
-      var carbs2 = carb2_factor * lbm; 
-      
-      console.log("PROTEIN:" + protein ); 	 
-      document.getElementById("bodyfat_output").innerHTML = bodyfat; 	
-      document.getElementById("weight_output").innerHTML = weight; 	
-      document.getElementById("week_output").innerHTML = week;	 	
-      document.getElementById("lbm_output").innerHTML = lbm.toFixed(1); 	
-      document.getElementById("protein_factor").innerHTML = ""; 	
-      document.getElementById("carb_factor").innerHTML = ""; 
-      document.getElementById("carb2_factor").innerHTML = ""; 	
-      document.getElementById("protein").innerHTML = Math.round(protein,-2); 	
-      document.getElementById("carbs").innerHTML = Math.round(carbs,-2); 
-      document.getElementById("carbs2").innerHTML = Math.round(carbs2,-2); 	
-    }
-    // ]]></script>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- CSS/Javascript links and Meta tags go here -->
+    <title>Protein Calculator</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="step step-1 hidden" >
+        <form>
+            <div class="input-group">
+                <input type="number" min="1" max="120" id="age" placeholder="Age in Years" value="" class="form-control" required />
+            </div>
+
+            <div class="input-group">
+                <select id="gender" class="form-control" required>
+                    <option>-- Select Gender --</option>
+                    <option value="male">Male</option>
+                    <option value="male">Female</option>
+                </select>
+            </div>
+
+            <div class="input-group">
+                <input type="number" min="1" id="weight" placeholder="Weight" class="form-control" required />
+                <div class="input-group-append">
+                    <span class="input-group-text active weight">kgs</span>
+                    <span class="input-group-text weight">lbs</span>
+                </div>
+            </div>
+
+            <div class="input-group">
+                <input type="number" min="1" id="height" placeholder="Height" class="form-control" required />
+                <div class="input-group-append">
+                    <span class="input-group-text active height">cm</span>
+                    <span class="input-group-text height">in</span>
+                </div>
+            </div>
+
+            <div class="input-group">
+                <select id="active" class="form-control" required>
+                    <option>-- Select Activity Levels --</option>
+                    <option value="sedentary">Sedentary</option>
+                    <option value="light">Light</option>
+                    <option value="moderate">Moderate</option>
+                    <option value="active">Active</option>
+                </select>
+            </div>
+            <div class="input-group">
+                <input type="submit" class="btn btn-info" id="submit-step-1" value="OK">
+            </div>
+        </form>
+    </div>
+
+    <div class="step step-2">
+        <form>
+            <ul class="nav nav-tabs" id="foodTab" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link active" id="breakfast-tab" data-toggle="tab" href="#breakfast" role="tab" aria-controls="breakfast" aria-selected="true">Breakfast</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="lunch-tab" data-toggle="tab" href="#lunch" role="tab" aria-controls="lunch" aria-selected="false">Lunch</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="snacks-tab" data-toggle="tab" href="#snacks" role="tab" aria-controls="snacks" aria-selected="false">Snacks</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="dinner-tab" data-toggle="tab" href="#dinner" role="tab" aria-controls="dinner" aria-selected="false">Dinner</a>
+                </li>
+            </ul>
+            <div class="tab-content" id="tabbedForm">
+                <div class="tab-pane fade show active" id="breakfast" role="tabpanel" aria-labelledby="breakfast-tab">
+                    <form class="food-menu">
+                        <div class="food-items"></div>
+                        <div class="input-group d-flex justify-content-center">
+                            <button type="button" class="add-item btn btn-success">Add Item +</button>
+                            <input type="submit" value="Done" class="btn btn-info" id="submit-breakfast">
+                        </div>
+                    </form>
+                </div>
+                <div class="tab-pane fade" id="lunch" role="tabpanel" aria-labelledby="lunch-tab">
+                    <form class="food-menu">
+                        <div class="food-items"></div>
+                        <div class="input-group d-flex justify-content-center">
+                            <button type="button" class="add-item btn btn-success">Add Item +</button>
+                            <input type="submit" value="Done" class="btn btn-info" id="submit-breakfast">
+                        </div>
+                    </form>
+                </div>
+                <div class="tab-pane fade" id="snacks" role="tabpanel" aria-labelledby="snacks-tab">
+                    <form class="food-menu">
+                        <div class="food-items"></div>
+                        <div class="input-group d-flex justify-content-center">
+                            <button type="button" class="add-item btn btn-success">Add Item +</button>
+                            <input type="submit" value="Done" class="btn btn-info" id="submit-breakfast">
+                        </div>
+                    </form>
+                </div>
+                <div class="tab-pane fade" id="dinner" role="tabpanel" aria-labelledby="dinner-tab">
+                    <form class="food-menu">
+                        <div class="food-items"></div>
+                        <div class="input-group d-flex justify-content-center">
+                            <button type="button" class="add-item btn btn-success">Add Item +</button>
+                            <input type="submit" value="Done" class="btn btn-info" id="submit-breakfast">
+                        </div>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="position-relative input-group hidden food-item" style="display: none;">
+                <input type="text" class="suggest-food form-control" oninput="populateFoodList(this);" placeholder="Enter a food item">
+                <div class="input-group-append">
+                    <span class="input-group-text clear-input">X</span>
+                </div>
+                <div class="suggest-list border" style="display: none;">
+                    <ul></ul>
+                </div>
+                <div class="form-row">
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="First name">
+                    </div>
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="Last name">
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="protein-info.js"></script>
+    <script>        
+        let food = loadData();
+        let uniqueFoodNames = loadUniqueName(food);
+        var proteinRequired = 0;
+        
+        var proteinIntake = 0;
+        $(".input-group-text").click(function(){
+            $(this).siblings(".input-group-text").removeClass("active");
+            $(this).addClass("active");
+        });
+
+        $("#submit-step-1").click(function(e){
+            e.stopPropagation();
+            e.preventDefault();
+
+            var age = $("#age").val(), 
+                gender = $("#gender").val(), 
+                weight = $("#weight").val(),
+                height = $("#height").val(),
+                active = $("#active").val();
+
+            if(age == "" || gender == "" || weight == "" || height == "" || active == ""){
+                alert("All fields are mandatory");
+            }else{
+                weight = converWeight(weight);
+                var proteinFactor = calculateFactor(active, gender);
+                proteinRequired = weight * proteinFactor;
+            }
+            gotoStep(2);
+        });
+
+        function converWeight(weight) {
+            return $(".weight.active").text() === "kgs" ? weight : weight/2.2;
+        }
+
+        function calculateFactor(active, gender) {
+            if(active == "sedentary"){
+                return 0.8;
+            } else if (active == "light") {
+                return 1.2;
+            } else if (active == "moderate") {
+                return 1.6;
+            } else if (active == "active") {
+                return 1.8;
+            }
+            return 1.4;
+        }
+
+        function gotoStep(stepCount) {
+            console.log(stepCount);
+            $(".step").hide();
+            $(".step-"+stepCount).show();
+        }
+
+        $(".add-item").click(function(){
+            var formContainer = $(this).parents(".tab-pane").find(".food-items");
+            var foodItem = $(".food-item").clone();
+            foodItem.removeClass("food-item").show();
+            formContainer.append(foodItem);
+        });
+
+        function populateFoodList(elem){
+            if($(elem).val().length > 0){
+                items = uniqueFoodNames.filter(function(item) {
+                    return item.toLowerCase().includes($(elem).val().toLowerCase());
+                });
+                list = items.map(function(item) {
+                    return "<li><a href='javascript:void(0);' onclick=\'addItem(this,\""+item+"\")\'>"+item+"</a></li>";
+                });
+                $(elem).siblings(".suggest-list").show().find("ul").html(list);
+            } else {
+                $(elem).siblings(".suggest-list").find("ul").html("<li>No item found with that name<li>");
+            }
+        }
+
+        function loadUniqueName(food) {
+            var uniqueNames = [];
+            $.each(food, function(i, el){
+                if($.inArray(el.name, uniqueNames) === -1) uniqueNames.push(el.name);
+            });
+            return uniqueNames;
+        }
+
+        function addItem(elem, val){
+            currentElement = $(elem);
+            currentElement.parents(".suggest-list").hide();
+            currentElement.parents(".input-group").find(".suggest-food").val(val).prop({ "disabled": true });
+            currentElement.parents(".input-group").find(".clear-input").show();
+            
+            items = food.filter(function(item) {
+                return item.name.toLowerCase() === val.toLowerCase();
+            });
+            if(items.length) {
+                var portions = populatePortions(items);
+                currentElement.parents(".input-group").after(portions);
+            }
+        }
+
+        function populatePortions(items) {
+            if(items.length > 1) {
+                options = items.map(function(item){
+                    return "<option value='"+item.protein+"'>"+item.portions+"</option>";
+                });
+                return "<div class='input-group'><select class='form-control' required><option>-- Select Portion --</option>" + options + "</select></div>";
+            } else {
+                return "<div class='input-group'><input type='text' class='form-control' readonly></div>";
+            }
+        }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,22 @@
+.input-group{
+    padding: 20px 50px;
+}
+.input-group-text{
+    cursor: pointer;
+}
+.input-group-text.active{
+    background-color: #155724;
+    color: #FFF;
+}
+.suggest-list{
+    bottom: 0;
+    left:0;
+    width: 100%;
+    background: #FFF;
+}
+.suggest-list ul{
+    list-style: none;
+    margin: 0;
+    padding-left: 12px;
+    border-radius: 0 0 4px 4px;
+}
