@@ -1,248 +1,388 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <!-- CSS/Javascript links and Meta tags go here -->
-    <title>Protein Calculator</title>
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div class="step step-1 hidden" >
-        <form>
-            <div class="input-group">
-                <input type="number" min="1" max="120" id="age" placeholder="Age in Years" value="" class="form-control" required />
-            </div>
-
-            <div class="input-group">
-                <select id="gender" class="form-control" required>
-                    <option>-- Select Gender --</option>
-                    <option value="male">Male</option>
-                    <option value="male">Female</option>
-                </select>
-            </div>
-
-            <div class="input-group">
-                <input type="number" min="1" id="weight" placeholder="Weight" class="form-control" required />
-                <div class="input-group-append">
-                    <span class="input-group-text active weight">kgs</span>
-                    <span class="input-group-text weight">lbs</span>
+    <head>
+        <meta charset="UTF-8">
+        <!-- CSS/Javascript links and Meta tags go here -->
+        <title>Protein Calculator</title>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm">
+                    <h1>Protein Calculator</h1>
                 </div>
             </div>
-
-            <div class="input-group">
-                <input type="number" min="1" id="height" placeholder="Height" class="form-control" required />
-                <div class="input-group-append">
-                    <span class="input-group-text active height">cm</span>
-                    <span class="input-group-text height">in</span>
-                </div>
-            </div>
-
-            <div class="input-group">
-                <select id="active" class="form-control" required>
-                    <option>-- Select Activity Levels --</option>
-                    <option value="sedentary">Sedentary</option>
-                    <option value="light">Light</option>
-                    <option value="moderate">Moderate</option>
-                    <option value="active">Active</option>
-                </select>
-            </div>
-            <div class="input-group">
-                <input type="submit" class="btn btn-info" id="submit-step-1" value="OK">
-            </div>
-        </form>
-    </div>
-
-    <div class="step step-2">
-        <form>
-            <ul class="nav nav-tabs" id="foodTab" role="tablist">
-                <li class="nav-item">
-                    <a class="nav-link active" id="breakfast-tab" data-toggle="tab" href="#breakfast" role="tab" aria-controls="breakfast" aria-selected="true">Breakfast</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" id="lunch-tab" data-toggle="tab" href="#lunch" role="tab" aria-controls="lunch" aria-selected="false">Lunch</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" id="snacks-tab" data-toggle="tab" href="#snacks" role="tab" aria-controls="snacks" aria-selected="false">Snacks</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" id="dinner-tab" data-toggle="tab" href="#dinner" role="tab" aria-controls="dinner" aria-selected="false">Dinner</a>
-                </li>
-            </ul>
-            <div class="tab-content" id="tabbedForm">
-                <div class="tab-pane fade show active" id="breakfast" role="tabpanel" aria-labelledby="breakfast-tab">
-                    <form class="food-menu">
-                        <div class="food-items"></div>
-                        <div class="input-group d-flex justify-content-center">
-                            <button type="button" class="add-item btn btn-success">Add Item +</button>
-                            <input type="submit" value="Done" class="btn btn-info" id="submit-breakfast">
+        </div>
+        <div class="container step step-1">
+            <div class="row">
+                <div class="col-sm">
+                    <form>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h3>STEP 1: Tell us about yourself!</h3>
+                            </div>
                         </div>
-                    </form>
-                </div>
-                <div class="tab-pane fade" id="lunch" role="tabpanel" aria-labelledby="lunch-tab">
-                    <form class="food-menu">
-                        <div class="food-items"></div>
-                        <div class="input-group d-flex justify-content-center">
-                            <button type="button" class="add-item btn btn-success">Add Item +</button>
-                            <input type="submit" value="Done" class="btn btn-info" id="submit-breakfast">
+                        <div class="form-row align-items-center">
+                            <div class="col">
+                                <div class="input-group mb-2">
+                                    <input type="number" min="1" max="120" id="age" placeholder="Age in Years" value="" class="form-control" required />
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="input-group mb-2">
+                                    <select id="gender" class="form-control" required>
+                                        <option>-- Select Gender --</option>
+                                        <option value="male">Male</option>
+                                        <option value="male">Female</option>
+                                    </select>
+                                </div>
+                            </div>
                         </div>
-                    </form>
-                </div>
-                <div class="tab-pane fade" id="snacks" role="tabpanel" aria-labelledby="snacks-tab">
-                    <form class="food-menu">
-                        <div class="food-items"></div>
-                        <div class="input-group d-flex justify-content-center">
-                            <button type="button" class="add-item btn btn-success">Add Item +</button>
-                            <input type="submit" value="Done" class="btn btn-info" id="submit-breakfast">
+                        <div class="form-row align-items-center">
+                            <div class="col-md-6">
+                                <div class="input-group mb-2">
+                                    <input type="number" min="1" id="weight" placeholder="Weight" class="form-control" required />
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text active weight">kgs</span>
+                                        <span class="input-group-text weight">lbs</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="input-group mb-2">
+                                    <input type="number" min="1" id="height" placeholder="Height" class="form-control" required />
+                                    <div class="input-group-append">
+                                        <span class="input-group-text active height">cm</span>
+                                        <span class="input-group-text height">in</span>
+                                    </div> 
+                                </div>
+                            </div>
                         </div>
-                    </form>
-                </div>
-                <div class="tab-pane fade" id="dinner" role="tabpanel" aria-labelledby="dinner-tab">
-                    <form class="food-menu">
-                        <div class="food-items"></div>
+                        <div class="form-row align-items-center">
+                            <div class="col">
+                                <div class="input-group mb-2">
+                                    <select id="active" class="form-control" required>
+                                        <option>-- Select Activity Levels --</option>
+                                        <option value="sedentary">Sedentary</option>
+                                        <option value="light">Light</option>
+                                        <option value="moderate">Moderate</option>
+                                        <option value="active">Active</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="input-group mb-2">
+                                    <select id="foodPrefer" class="form-control" required>
+                                        <option>-- Select Food Preferences --</option>
+                                        <option value="vegetarian">Vegetarian</option>
+                                        <option value="vegan">Vegan</option>
+                                        <option value="eggitarian">Eggitarian</option>
+                                        <option value="non-vegetarian">Non-Vegetarian</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+
                         <div class="input-group d-flex justify-content-center">
-                            <button type="button" class="add-item btn btn-success">Add Item +</button>
-                            <input type="submit" value="Done" class="btn btn-info" id="submit-breakfast">
+                            <input type="submit" class="btn btn-info" id="submit-step-1" value="OK">
                         </div>
                     </form>
                 </div>
             </div>
+        </div>
             
-            <div class="position-relative input-group hidden food-item" style="display: none;">
-                <input type="text" class="suggest-food form-control" oninput="populateFoodList(this);" placeholder="Enter a food item">
-                <div class="input-group-append">
-                    <span class="input-group-text clear-input">X</span>
-                </div>
-                <div class="suggest-list border" style="display: none;">
-                    <ul></ul>
-                </div>
-                <div class="form-row">
-                    <div class="col">
-                        <input type="text" class="form-control" placeholder="First name">
-                    </div>
-                    <div class="col">
-                        <input type="text" class="form-control" placeholder="Last name">
-                    </div>
+        <div class="container step step-2">
+            <div class="row">
+                <div class="col col-sm">
+                    <form>
+                        <ul class="nav nav-tabs" id="foodTab" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link active" id="breakfast-tab" data-toggle="tab" href="#breakfast" role="tab" aria-controls="breakfast" aria-selected="true">Breakfast</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="lunch-tab" data-toggle="tab" href="#lunch" role="tab" aria-controls="lunch" aria-selected="false">Lunch</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="snacks-tab" data-toggle="tab" href="#snacks" role="tab" aria-controls="snacks" aria-selected="false">Snacks</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="dinner-tab" data-toggle="tab" href="#dinner" role="tab" aria-controls="dinner" aria-selected="false">Dinner</a>
+                            </li>
+                        </ul>
+                        <div class="tab-content" id="tabbedForm">
+                            <div class="tab-pane fade show active" id="breakfast" role="tabpanel" aria-labelledby="breakfast-tab">
+                                <form class="food-menu">
+                                    <div class="food-items"></div>
+                                    <div class="input-group d-flex justify-content-center">
+                                        <button type="button" class="add-item btn btn-success">Add Item +</button>
+                                        <input type="button" value="Done" class="btn btn-info ml-2 submit-meal" id="submit-breakfast">
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="tab-pane fade" id="lunch" role="tabpanel" aria-labelledby="lunch-tab">
+                                <form class="food-menu">
+                                    <div class="food-items"></div>
+                                    <div class="input-group d-flex justify-content-center">
+                                        <button type="button" class="add-item btn btn-success">Add Item +</button>
+                                        <input type="button" value="Done" class="btn btn-info ml-2 submit-meal" id="submit-lunch">
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="tab-pane fade" id="snacks" role="tabpanel" aria-labelledby="snacks-tab">
+                                <form class="food-menu">
+                                    <div class="food-items"></div>
+                                    <div class="input-group d-flex justify-content-center">
+                                        <button type="button" class="add-item btn btn-success">Add Item +</button>
+                                        <input type="button" value="Done" class="btn btn-info ml-2 submit-meal" id="submit-snacks">
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="tab-pane fade" id="dinner" role="tabpanel" aria-labelledby="dinner-tab">
+                                <form class="food-menu">
+                                    <div class="food-items"></div>
+                                    <div class="input-group d-flex justify-content-center">
+                                        <button type="button" class="add-item btn btn-success">Add Item +</button>
+                                        <input type="button" value="Done" class="btn btn-info ml-2 submit-meal" id="submit-dinner">
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        
+                        <div class="form-row food-item" style="display: none;" >
+                            <div class="col-sm-5">
+                                <div class="input-group position-relative food-input-field">
+                                    <input type="text" class="suggest-food form-control" oninput="populateFoodList(this);" placeholder="Enter a food item">
+                                    <div class="suggest-list border" style="display: none;">
+                                        <ul></ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-7 food-quantity-container">
+                                <div class="input-group">
+                                    <div class='col-sm-1'>
+                                        <button class="btn btn-danger" type="button" onclick="removeFoodItem(this);">X</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
                 </div>
             </div>
-        </form>
-    </div>
-
-
-
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <script src="protein-info.js"></script>
-    <script>        
-        let food = loadData();
-        let uniqueFoodNames = loadUniqueName(food);
-        var proteinRequired = 0;
+        </div>
         
-        var proteinIntake = 0;
-        $(".input-group-text").click(function(){
-            $(this).siblings(".input-group-text").removeClass("active");
-            $(this).addClass("active");
-        });
+        <div class="container step step-2">
+            <div class="row">
+                <div class="col col-sm">
 
-        $("#submit-step-1").click(function(e){
-            e.stopPropagation();
-            e.preventDefault();
+                </div>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="protein-info.js"></script>
+        <script>        
+            var food = loadData();
+            var uniqueFoodNames = loadUniqueName(food);
+            var proteinRequired = 0;
+            var age = "", gender = "", weight = "", height = "", active = "", foodPrefer = "";
+            var myFoodIntake = [];
+            var proteinIntake = 0;
 
-            var age = $("#age").val(), 
+            $(".input-group-text").click(function(){
+                $(this).siblings(".input-group-text").removeClass("active");
+                $(this).addClass("active");
+            });
+
+            $("#submit-step-1").click(function(e){
+                e.stopPropagation();
+                e.preventDefault();
+
+                age = $("#age").val();
                 gender = $("#gender").val(), 
                 weight = $("#weight").val(),
                 height = $("#height").val(),
                 active = $("#active").val();
+                foodPrefer = $("#foodPrefer").val();
 
-            if(age == "" || gender == "" || weight == "" || height == "" || active == ""){
-                alert("All fields are mandatory");
-            }else{
-                weight = converWeight(weight);
-                var proteinFactor = calculateFactor(active, gender);
-                proteinRequired = weight * proteinFactor;
-            }
-            gotoStep(2);
-        });
-
-        function converWeight(weight) {
-            return $(".weight.active").text() === "kgs" ? weight : weight/2.2;
-        }
-
-        function calculateFactor(active, gender) {
-            if(active == "sedentary"){
-                return 0.8;
-            } else if (active == "light") {
-                return 1.2;
-            } else if (active == "moderate") {
-                return 1.6;
-            } else if (active == "active") {
-                return 1.8;
-            }
-            return 1.4;
-        }
-
-        function gotoStep(stepCount) {
-            console.log(stepCount);
-            $(".step").hide();
-            $(".step-"+stepCount).show();
-        }
-
-        $(".add-item").click(function(){
-            var formContainer = $(this).parents(".tab-pane").find(".food-items");
-            var foodItem = $(".food-item").clone();
-            foodItem.removeClass("food-item").show();
-            formContainer.append(foodItem);
-        });
-
-        function populateFoodList(elem){
-            if($(elem).val().length > 0){
-                items = uniqueFoodNames.filter(function(item) {
-                    return item.toLowerCase().includes($(elem).val().toLowerCase());
-                });
-                list = items.map(function(item) {
-                    return "<li><a href='javascript:void(0);' onclick=\'addItem(this,\""+item+"\")\'>"+item+"</a></li>";
-                });
-                $(elem).siblings(".suggest-list").show().find("ul").html(list);
-            } else {
-                $(elem).siblings(".suggest-list").find("ul").html("<li>No item found with that name<li>");
-            }
-        }
-
-        function loadUniqueName(food) {
-            var uniqueNames = [];
-            $.each(food, function(i, el){
-                if($.inArray(el.name, uniqueNames) === -1) uniqueNames.push(el.name);
+                if(age == "" || gender == "" || weight == "" || height == "" || active == "" || foodPrefer == ""){
+                    alert("All fields are mandatory");
+                }else{
+                    weight = converWeight(weight);
+                    var proteinFactor = calculateFactor(active, gender);
+                    proteinRequired = weight * proteinFactor;
+                }
+                gotoStep(2);
             });
-            return uniqueNames;
-        }
 
-        function addItem(elem, val){
-            currentElement = $(elem);
-            currentElement.parents(".suggest-list").hide();
-            currentElement.parents(".input-group").find(".suggest-food").val(val).prop({ "disabled": true });
-            currentElement.parents(".input-group").find(".clear-input").show();
-            
-            items = food.filter(function(item) {
-                return item.name.toLowerCase() === val.toLowerCase();
+            function converWeight(weight) {
+                return $(".weight.active").text() === "kgs" ? weight : weight/2.2;
+            }
+
+            function calculateFactor(active, gender) {
+                if(active == "sedentary"){
+                    return 0.8;
+                } else if (active == "light") {
+                    return 1.2;
+                } else if (active == "moderate") {
+                    return 1.6;
+                } else if (active == "active") {
+                    return 1.8;
+                }
+                return 1.4;
+            }
+
+            function gotoStep(stepCount) {
+                console.log(stepCount);
+                $(".step").hide();
+                $(".step-"+stepCount).show();
+            }
+
+            $(".add-item").click(function(){
+                var formContainer = $(this).parents(".tab-pane").find(".food-items");
+                var foodItem = $(".food-item").clone();
+                foodItem.removeClass("food-item").show();
+                formContainer.append(foodItem);
             });
-            if(items.length) {
-                var portions = populatePortions(items);
-                currentElement.parents(".input-group").after(portions);
-            }
-        }
 
-        function populatePortions(items) {
-            if(items.length > 1) {
-                options = items.map(function(item){
-                    return "<option value='"+item.protein+"'>"+item.portions+"</option>";
-                });
-                return "<div class='input-group'><select class='form-control' required><option>-- Select Portion --</option>" + options + "</select></div>";
-            } else {
-                return "<div class='input-group'><input type='text' class='form-control' readonly></div>";
+            function populateFoodList(elem){
+                if($(elem).val().length > 0){
+                    $(elem).removeClass("is-invalid");
+                    items = uniqueFoodNames.filter(function(item) {
+                        return item.toLowerCase().includes($(elem).val().toLowerCase());
+                    });
+                    list = items.map(function(item) {
+                        return "<li><a href='javascript:void(0);' onclick=\'addItem(this,\""+item+"\")\'>"+item+"</a></li>";
+                    });
+                    $(elem).siblings(".suggest-list").show().find("ul").html(list);
+                } else {
+                    $(elem).siblings(".suggest-list").find("ul").html("<li>No item found with that name<li>");
+                }
             }
-        }
-    </script>
-  </body>
+
+            function loadUniqueName(food) {
+                var uniqueNames = [];
+                $.each(food, function(i, el){
+                    if($.inArray(el.name, uniqueNames) === -1) uniqueNames.push(el.name);
+                });
+                return uniqueNames;
+            }
+
+            function addItem(elem, val){
+                currentElement = $(elem);
+                currentElement.parents(".suggest-list").hide();
+                currentElement.parents(".input-group").find(".suggest-food").val(val).prop({ "disabled": true });
+                
+                items = food.filter(function(item) {
+                    return item.name.toLowerCase() === val.toLowerCase();
+                });
+                if(items.length) {
+                    var portions = populatePortions(items);
+                    currentElement.parents(".form-row").find(".food-quantity-container").html(portions);
+                }
+                
+                currentElement.parents(".suggest-list").empty();
+            }
+
+            function populatePortions(items) {
+                if(items.length > 1) {
+                    options = items.map(function(item){
+                        return "<option value='"+item.portion+"'>"+item.portion+"</option>";
+                    });
+                    return "<div class='input-group'>"+
+                                "<div class='col-sm-4'>"+
+                                    "<input type='number' min='0' onchange='removeQuantityErrorClass(this)' placeholder='Quantity' value='1' class='form-control portion-quantity'>"+
+                                "</div>"+
+                                "<div class='col-sm-7'>"+
+                                    "<select class='form-control portion-type' required onchange='removePortionErrorClass(this);'>"+
+                                        "<option value=''>-- Select Portion Size --</option>"+ 
+                                            options + 
+                                    "</select>"+
+                                "</div>"+
+                                "<div class='col-sm-1'>"+
+                                    "<button class='btn btn-danger' onclick='removeFoodItem(this);' type='button'>X</button>"+
+                                "</div>"+
+                            "</div>";
+                } else {
+                    return "<div class='input-group'><input type='text' class='form-control' readonly></div>";
+                }
+            }
+        
+            function removeQuantityErrorClass(elem){
+                if($(elem) && $(elem).val > 0){
+                    $(elem).removeClass("is-invalid");
+                }
+            }
+
+            function removePortionErrorClass(elem) {
+                if ($(elem) && $(elem).val() !== ""){
+                    $(elem).removeClass("is-invalid");
+                }
+            }
+
+            $(".submit-meal").click(function(){
+                var items = $(this).parents(".tab-pane").find(".form-row");
+                $.each(items, function(index, elem){
+                    
+                    foodItem = $(elem).find(".suggest-food").val();
+                    foodQuantity = $(elem).find(".portion-quantity").val() == "" ? 0 : parseFloat($(elem).find(".portion-quantity").val());
+                    foodPortion = $(elem).find(".portion-type").val();
+                    if(foodItem == "") {
+                        $(elem).find(".suggest-food").addClass("is-invalid");
+                        return;
+                    }
+
+                    if(foodPortion == "") {
+                        $(elem).find(".portion-type").addClass("is-invalid");
+                        return;
+                    }
+                    if(foodQuantity <= 0) {
+                        $(elem).find(".portion-quantity").addClass("is-invalid");
+                        return;
+                    }
+                    intake = food.filter(function(i){
+                        return i.name.toLowerCase() === foodItem.toLowerCase() && i.portion === foodPortion;
+                    })[0];
+                    
+                    myFoodIntake.push({
+                        name: intake.name,
+                        portion: intake.portion,
+                        protein: intake.protein,
+                        carbs: intake.carbs,
+                        fats: intake.fats,
+                        fibre: intake.fibre,
+			            quantity: foodQuantity,
+                        totalProtein: foodQuantity * parseFloat(intake.protein),
+                        totalCarbs: foodQuantity * parseFloat(intake.carbs),
+                        totalFats: foodQuantity * parseFloat(intake.fats),
+                        totalFibre: foodQuantity * parseFloat(intake.fibre)
+                    });
+                });
+                if($(this).parents(".tab-pane").find(".is-invalid").length <= 0) {
+                    moveToNextMeal($(this).attr("id"));
+                }
+            });
+
+            function moveToNextMeal(id){
+                tabId = id.slice(id.indexOf("-")+1);
+                tabId = tabId == "breakfast" ? "lunch" : tabId == "lunch" ? "snacks" : tabId == "snacks" ? "dinner" : tabId == "dinner" ? 0 : "breakfast";
+                if(tabId == 0) {
+                    gotoStep(3);
+                }
+                $('#foodTab a[href="#'+tabId+'"]').tab('show')
+            }
+
+            function removeFoodItem(elem) {
+                formRow = $(elem).parents(".form-row")                
+                foodItem = formRow.find(".suggest-food").val();
+                foodQuantity = formRow.find(".portion-quantity").length > 0 && formRow.find(".portion-quantity").val() == "" ? 0 : parseFloat($(elem).find(".portion-quantity").val());
+                foodPortion = formRow.find(".portion-quantity").length > 0 ? formRow.find(".portion-type").val() : 0;
+
+                
+            }
+        </script>
+    </body>
 </html>
