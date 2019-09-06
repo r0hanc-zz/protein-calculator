@@ -3994,3 +3994,5656 @@ function loadData(){
 		}
 	];
 }
+
+function suggestedFoodItems() {
+	return {
+		"nonvegetarian": [
+			{
+				"name": "Broiled Pork Loin",
+				"portion": "One",
+				"protein": "53.5",
+				"carbs": "0",
+				"fats": "8.6",
+				"fibre": "0"
+			},
+			{
+				"name": "Broiled Pork Loin",
+				"portion": "Gram",
+				"protein": "27.6",
+				"carbs": "0",
+				"fats": "4.4",
+				"fibre": "0"
+			},
+			{
+				"name": "Roasted Pork Loin",
+				"portion": "One",
+				"protein": "104.7",
+				"carbs": "0",
+				"fats": "15.9",
+				"fibre": "0"
+			},
+			{
+				"name": "Roasted Pork Loin",
+				"portion": "Gram",
+				"protein": "26",
+				"carbs": "0",
+				"fats": "4",
+				"fibre": "0"
+			},
+			{
+				"name": "French Mussels",
+				"portion": "Gram",
+				"protein": "11",
+				"carbs": "2.8",
+				"fats": "6.7",
+				"fibre": "0.2"
+			},
+			{
+				"name": "French Mussels",
+				"portion": "Big bowl",
+				"protein": "33.6",
+				"carbs": "8.6",
+				"fats": "20.4",
+				"fibre": "0.7"
+			},
+			{
+				"name": "Prawn Pulao",
+				"portion": "Big bowl",
+				"protein": "18.6",
+				"carbs": "51.4",
+				"fats": "9.3",
+				"fibre": "1.9"
+			},
+			{
+				"name": "Prawns (Medium)",
+				"portion": "Gram",
+				"protein": "19.1",
+				"carbs": "0.8",
+				"fats": "1",
+				"fibre": "0"
+			},
+			{
+				"name": "Prawns (Medium)",
+				"portion": "One",
+				"protein": "1.2",
+				"carbs": "0.1",
+				"fats": "0.1",
+				"fibre": "0"
+			},
+			{
+				"name": "Tiger Prawns",
+				"portion": "One",
+				"protein": "2.9",
+				"carbs": "0.1",
+				"fats": "0.2",
+				"fibre": "0"
+			},
+			{
+				"name": "King Prawns",
+				"portion": "Gram",
+				"protein": "19.1",
+				"carbs": "0.8",
+				"fats": "1",
+				"fibre": "0"
+			},
+			{
+				"name": "Turkey (Cold Cut)",
+				"portion": "One",
+				"protein": "6.4",
+				"carbs": "1.2",
+				"fats": "0.2",
+				"fibre": "0.1"
+			},
+			{
+				"name": "Turkey (Cold Cut)",
+				"portion": "Gram",
+				"protein": "22.8",
+				"carbs": "4.2",
+				"fats": "0.9",
+				"fibre": "0.5"
+			},
+			{
+				"name": "Chicken Shawarma",
+				"portion": "One",
+				"protein": "14.6",
+				"carbs": "16",
+				"fats": "6.4",
+				"fibre": "2.1"
+			},
+			{
+				"name": "Chicken Shawarma",
+				"portion": "Gram",
+				"protein": "9.8",
+				"carbs": "10.7",
+				"fats": "4.2",
+				"fibre": "1.4"
+			},
+			{
+				"name": "Tuna Cutlet ",
+				"portion": "One",
+				"protein": "3",
+				"carbs": "3.7",
+				"fats": "6.2",
+				"fibre": "0.4"
+			},
+			{
+				"name": "Tuna Cutlet ",
+				"portion": "Gram",
+				"protein": "10",
+				"carbs": "12.2",
+				"fats": "20.7",
+				"fibre": "1.3"
+			},
+			{
+				"name": "Canned Tuna ",
+				"portion": "Gram",
+				"protein": "19.4",
+				"carbs": "26",
+				"fats": "9.1",
+				"fibre": "0.2"
+			},
+			{
+				"name": "Salmon",
+				"portion": "Gram",
+				"protein": "20.5",
+				"carbs": "0",
+				"fats": "4.4",
+				"fibre": "0"
+			},
+			{
+				"name": "Salmon",
+				"portion": "One",
+				"protein": "65.2",
+				"carbs": "0",
+				"fats": "14",
+				"fibre": "0"
+			},
+			{
+				"name": "Salmon Curry ",
+				"portion": "Small bowl",
+				"protein": "19.8",
+				"carbs": "11.3",
+				"fats": "9.3",
+				"fibre": "1.3"
+			},
+			{
+				"name": "Salmon Curry ",
+				"portion": "Big bowl",
+				"protein": "46.2",
+				"carbs": "26.4",
+				"fats": "21.6",
+				"fibre": "3"
+			},
+			{
+				"name": "Salmon Curry ",
+				"portion": "Gram",
+				"protein": "13.2",
+				"carbs": "7.5",
+				"fats": "6.2",
+				"fibre": "0.8"
+			},
+			{
+				"name": "Sardines Canned In Oil",
+				"portion": "Gram",
+				"protein": "24.6",
+				"carbs": "0",
+				"fats": "11.5",
+				"fibre": "0"
+			},
+			{
+				"name": "Cod",
+				"portion": "One",
+				"protein": "17.7",
+				"carbs": "0",
+				"fats": "0.5",
+				"fibre": "0"
+			},
+			{
+				"name": "Cod",
+				"portion": "Gram",
+				"protein": "15.3",
+				"carbs": "0",
+				"fats": "0.4",
+				"fibre": "0"
+			},
+			{
+				"name": "Beef Curry",
+				"portion": "Small bowl",
+				"protein": "20.3",
+				"carbs": "8.7",
+				"fats": "10.3",
+				"fibre": "2.4"
+			},
+			{
+				"name": "Beef Curry",
+				"portion": "Big bowl",
+				"protein": "47.4",
+				"carbs": "20.3",
+				"fats": "24.1",
+				"fibre": "5.7"
+			},
+			{
+				"name": "Beef Curry",
+				"portion": "Gram",
+				"protein": "13.5",
+				"carbs": "5.8",
+				"fats": "6.9",
+				"fibre": "1.6"
+			},
+			{
+				"name": "Beef Gravy",
+				"portion": "Small bowl",
+				"protein": "20.3",
+				"carbs": "8.7",
+				"fats": "10.3",
+				"fibre": "2.4"
+			},
+			{
+				"name": "Beef Gravy",
+				"portion": "Big bowl",
+				"protein": "47.4",
+				"carbs": "20.3",
+				"fats": "24.1",
+				"fibre": "5.7"
+			},
+			{
+				"name": "Beef Gravy",
+				"portion": "Gram",
+				"protein": "13.5",
+				"carbs": "5.8",
+				"fats": "6.9",
+				"fibre": "1.6"
+			},
+			{
+				"name": "Lamb Curry ",
+				"portion": "Small bowl",
+				"protein": "11.6",
+				"carbs": "5.3",
+				"fats": "11.1",
+				"fibre": "0.9"
+			},
+			{
+				"name": "Lamb Curry ",
+				"portion": "Big bowl",
+				"protein": "27.2",
+				"carbs": "12.4",
+				"fats": "26",
+				"fibre": "2.2"
+			},
+			{
+				"name": "Lamb Curry ",
+				"portion": "Gram",
+				"protein": "7.8",
+				"carbs": "3.5",
+				"fats": "7.4",
+				"fibre": "0.6"
+			},
+			{
+				"name": "Lamb Gravy",
+				"portion": "Small bowl",
+				"protein": "11.6",
+				"carbs": "5.3",
+				"fats": "11.1",
+				"fibre": "0.9"
+			},
+			{
+				"name": "Lamb Gravy",
+				"portion": "Big bowl",
+				"protein": "27.2",
+				"carbs": "12.4",
+				"fats": "26",
+				"fibre": "2.2"
+			},
+			{
+				"name": "Lamb Gravy",
+				"portion": "Gram",
+				"protein": "7.8",
+				"carbs": "3.5",
+				"fats": "7.4",
+				"fibre": "0.6"
+			},
+			{
+				"name": "Lamb Keema",
+				"portion": "Small bowl",
+				"protein": "8.1",
+				"carbs": "6.2",
+				"fats": "12.7",
+				"fibre": "2.9"
+			},
+			{
+				"name": "Lamb Keema",
+				"portion": "Big bowl",
+				"protein": "18.9",
+				"carbs": "14.5",
+				"fats": "29.5",
+				"fibre": "6.8"
+			},
+			{
+				"name": "Lamb Keema",
+				"portion": "Gram",
+				"protein": "8.1",
+				"carbs": "6.2",
+				"fats": "12.7",
+				"fibre": "2.9"
+			},
+			{
+				"name": "Pistachios",
+				"portion": "Teacup",
+				"protein": "24.4",
+				"carbs": "19.9",
+				"fats": "65.8",
+				"fibre": "12.7"
+			},
+			{
+				"name": "Pistachios",
+				"portion": "Gram",
+				"protein": "19.8",
+				"carbs": "16.2",
+				"fats": "53.5",
+				"fibre": "10.3"
+			},
+			{
+				"name": "Baked Tempeh",
+				"portion": "One",
+				"protein": "3.7",
+				"carbs": "1.5",
+				"fats": "2.8",
+				"fibre": "0"
+			},
+			{
+				"name": "Baked Tempeh",
+				"portion": "Gram",
+				"protein": "18.5",
+				"carbs": "7.3",
+				"fats": "14",
+				"fibre": "0.1"
+			},
+			{
+				"name": "Walnuts",
+				"portion": "Gram",
+				"protein": "15.6",
+				"carbs": "11",
+				"fats": "64.5",
+				"fibre": "6.7"
+			},
+			{
+				"name": "Kidney Beans",
+				"portion": "Gram",
+				"protein": "22.9",
+				"carbs": "60.9",
+				"fats": "1.3",
+				"fibre": "24.9"
+			},
+			{
+				"name": "Kidney Beans",
+				"portion": "Small bowl",
+				"protein": "42.1",
+				"carbs": "111.5",
+				"fats": "2.4",
+				"fibre": "45.8"
+			},
+			{
+				"name": "Kidney Beans Curry",
+				"portion": "Big bowl",
+				"protein": "13.6",
+				"carbs": "39.9",
+				"fats": "6.5",
+				"fibre": "16"
+			},
+			{
+				"name": "Kidney Beans Curry",
+				"portion": "Gram",
+				"protein": "3.9",
+				"carbs": "11.4",
+				"fats": "1.9",
+				"fibre": "4.6"
+			},
+			{
+				"name": "Kidney Bean Salad",
+				"portion": "Small bowl",
+				"protein": "8.1",
+				"carbs": "22.5",
+				"fats": "0.5",
+				"fibre": "6.2"
+			},
+			{
+				"name": "Kidney Bean Salad",
+				"portion": "Big bowl",
+				"protein": "19",
+				"carbs": "52.5",
+				"fats": "1.3",
+				"fibre": "14.4"
+			},
+			{
+				"name": "Kidney Bean Salad",
+				"portion": "Gram",
+				"protein": "5.4",
+				"carbs": "15",
+				"fats": "0.4",
+				"fibre": "4.1"
+			},
+			{
+				"name": "Kidney Beans Nachos",
+				"portion": "Gram",
+				"protein": "5.6",
+				"carbs": "17.8",
+				"fats": "3.6",
+				"fibre": "3.3"
+			},
+			{
+				"name": "Kidney Beans Nachos",
+				"portion": "Small bowl",
+				"protein": "13.4",
+				"carbs": "42.8",
+				"fats": "8.7",
+				"fibre": "7.9"
+			},
+			{
+				"name": "Kidney Beans Boiled",
+				"portion": "Small bowl",
+				"protein": "9.2",
+				"carbs": "24.2",
+				"fats": "0.5",
+				"fibre": "6.8"
+			},
+			{
+				"name": "Kidney Beans Boiled",
+				"portion": "Big bowl",
+				"protein": "21.5",
+				"carbs": "56.5",
+				"fats": "1.2",
+				"fibre": "15.9"
+			},
+			{
+				"name": "Kidney Beans Boiled",
+				"portion": "Gram",
+				"protein": "8.7",
+				"carbs": "22.8",
+				"fats": "0.5",
+				"fibre": "6.4"
+			},
+			{
+				"name": "Kidney Beans Soup",
+				"portion": "Small bowl",
+				"protein": "3.7",
+				"carbs": "11.6",
+				"fats": "1.3",
+				"fibre": "4.4"
+			},
+			{
+				"name": "Kidney Beans Soup",
+				"portion": "Big bowl",
+				"protein": "8.7",
+				"carbs": "26.9",
+				"fats": "3.1",
+				"fibre": "10.3"
+			},
+			{
+				"name": "Sunflower Seeds",
+				"portion": "Gram",
+				"protein": "19.8",
+				"carbs": "17.9",
+				"fats": "52.1",
+				"fibre": "8.6"
+			},
+			{
+				"name": "Sunflower Seeds",
+				"portion": "Small bowl",
+				"protein": "27.7",
+				"carbs": "25.1",
+				"fats": "72.9",
+				"fibre": "12"
+			},
+			{
+				"name": "Roasted Peanuts",
+				"portion": "Gram",
+				"protein": "26.2",
+				"carbs": "26.7",
+				"fats": "39.8",
+				"fibre": "11"
+			},
+			{
+				"name": "Roasted Peanuts",
+				"portion": "Small bowl",
+				"protein": "38.3",
+				"carbs": "39",
+				"fats": "58.1",
+				"fibre": "16.1"
+			},
+			{
+				"name": "Soy Meat",
+				"portion": "Small bowl",
+				"protein": "23.4",
+				"carbs": "14.9",
+				"fats": "0.2",
+				"fibre": "5.9"
+			},
+			{
+				"name": "Soy Meat",
+				"portion": "Gram",
+				"protein": "52",
+				"carbs": "33",
+				"fats": "0.5",
+				"fibre": "13"
+			},
+			{
+				"name": "Soy Milk",
+				"portion": "Glass",
+				"protein": "6.5",
+				"carbs": "12.6",
+				"fats": "3.5",
+				"fibre": "0"
+			},
+			{
+				"name": "Soy Milk",
+				"portion": "ml",
+				"protein": "3.3",
+				"carbs": "6.3",
+				"fats": "1.8",
+				"fibre": "0"
+			},
+			{
+				"name": "Soy Paneer",
+				"portion": "Gram",
+				"protein": "8.1",
+				"carbs": "1.9",
+				"fats": "4.8",
+				"fibre": "0.3"
+			},
+			{
+				"name": "Soy Paneer",
+				"portion": "Small bowl",
+				"protein": "20",
+				"carbs": "4.6",
+				"fats": "11.9",
+				"fibre": "0.8"
+			},
+			{
+				"name": "Soya Chaap",
+				"portion": "Small bowl",
+				"protein": "26.6",
+				"carbs": "20.4",
+				"fats": "2.9",
+				"fibre": "7.8"
+			},
+			{
+				"name": "Soya Chaap",
+				"portion": "Big bowl",
+				"protein": "62.1",
+				"carbs": "47.7",
+				"fats": "6.6",
+				"fibre": "18.2"
+			},
+			{
+				"name": "Soya Chaap",
+				"portion": "Gram",
+				"protein": "17.8",
+				"carbs": "13.6",
+				"fats": "1.9",
+				"fibre": "5.2"
+			},
+			{
+				"name": "Soy Nuts",
+				"portion": "Small bowl",
+				"protein": "68",
+				"carbs": "56",
+				"fats": "37",
+				"fibre": "14"
+			},
+			{
+				"name": "Soy Nuts",
+				"portion": "Gram",
+				"protein": "39.5",
+				"carbs": "32.6",
+				"fats": "21.5",
+				"fibre": "8.1"
+			},
+			{
+				"name": "Soy Sticks",
+				"portion": "Small bowl",
+				"protein": "12.2",
+				"carbs": "3.6",
+				"fats": "7.2",
+				"fibre": "1.1"
+			},
+			{
+				"name": "Soy Sticks",
+				"portion": "Gram",
+				"protein": "8.1",
+				"carbs": "2.4",
+				"fats": "4.8",
+				"fibre": "0.7"
+			},
+			{
+				"name": "Soy Bread",
+				"portion": "One",
+				"protein": "3.3",
+				"carbs": "11.7",
+				"fats": "1",
+				"fibre": "0.9"
+			},
+			{
+				"name": "Soy Bread",
+				"portion": "Gram",
+				"protein": "13",
+				"carbs": "45.4",
+				"fats": "3.9",
+				"fibre": "3.5"
+			},
+			{
+				"name": "Soy Cappuccino",
+				"portion": "ml",
+				"protein": "3.3",
+				"carbs": "7.6",
+				"fats": "1.7",
+				"fibre": "0"
+			},
+			{
+				"name": "Soy Cappuccino",
+				"portion": "Glass",
+				"protein": "8.2",
+				"carbs": "19.1",
+				"fats": "4.3",
+				"fibre": "0"
+			},
+			{
+				"name": "Soya Chunks",
+				"portion": "Gram",
+				"protein": "52",
+				"carbs": "33",
+				"fats": "0.5",
+				"fibre": "13"
+			},
+			{
+				"name": "Soya Chunks",
+				"portion": "Small bowl",
+				"protein": "23.4",
+				"carbs": "14.9",
+				"fats": "0.2",
+				"fibre": "5.9"
+			},
+			{
+				"name": "Soya Bean",
+				"portion": "Small bowl",
+				"protein": "80.4",
+				"carbs": "38.9",
+				"fats": "36.3",
+				"fibre": "42.8"
+			},
+			{
+				"name": "Soya Bean",
+				"portion": "Gram",
+				"protein": "43.2",
+				"carbs": "20.9",
+				"fats": "19.5",
+				"fibre": "23"
+			},
+			{
+				"name": "Soya Bhurji",
+				"portion": "Gram",
+				"protein": "7.8",
+				"carbs": "9.5",
+				"fats": "4.4",
+				"fibre": "3.4"
+			},
+			{
+				"name": "Soya Bhurji",
+				"portion": "Big bowl",
+				"protein": "18",
+				"carbs": "22.2",
+				"fats": "10.3",
+				"fibre": "7.8"
+			},
+			{
+				"name": "Green Moong Cheela",
+				"portion": "One",
+				"protein": "6",
+				"carbs": "16.1",
+				"fats": "4.9",
+				"fibre": "2.3"
+			},
+			{
+				"name": "Green Moong Cheela",
+				"portion": "Gram",
+				"protein": "7.5",
+				"carbs": "20.2",
+				"fats": "6.1",
+				"fibre": "2.8"
+			},
+			{
+				"name": "Pumpkin Seeds",
+				"portion": "Gram",
+				"protein": "24.3",
+				"carbs": "15.6",
+				"fats": "47.2",
+				"fibre": "3.3"
+			},
+			{
+				"name": "Greek Yogurt",
+				"portion": "Small bowl",
+				"protein": "5.1",
+				"carbs": "7",
+				"fats": "5.7",
+				"fibre": "0"
+			},
+			{
+				"name": "Greek Yogurt",
+				"portion": "Big bowl",
+				"protein": "11.9",
+				"carbs": "16.2",
+				"fats": "13.3",
+				"fibre": "0"
+			},
+			{
+				"name": "Greek Yogurt",
+				"portion": "Gram",
+				"protein": "3.4",
+				"carbs": "4.6",
+				"fats": "3.8",
+				"fibre": "0"
+			},
+			{
+				"name": "Quinoa Chickpea Salad ",
+				"portion": "Small bowl",
+				"protein": "2.9",
+				"carbs": "12",
+				"fats": "0.9",
+				"fibre": "4.5"
+			},
+			{
+				"name": "Quinoa Chickpea Salad ",
+				"portion": "Big bowl",
+				"protein": "6.9",
+				"carbs": "28",
+				"fats": "2.2",
+				"fibre": "10.5"
+			},
+			{
+				"name": "Quinoa Chickpea Salad ",
+				"portion": "Gram",
+				"protein": "3.5",
+				"carbs": "14.4",
+				"fats": "1.1",
+				"fibre": "5.4"
+			},
+			{
+				"name": "Palak Paneer ",
+				"portion": "Small bowl",
+				"protein": "6",
+				"carbs": "6.1",
+				"fats": "14.3",
+				"fibre": "2.1"
+			},
+			{
+				"name": "Palak Paneer ",
+				"portion": "Big bowl",
+				"protein": "13.9",
+				"carbs": "14.3",
+				"fats": "33.4",
+				"fibre": "4.8"
+			},
+			{
+				"name": "Palak Paneer ",
+				"portion": "Gram",
+				"protein": "4",
+				"carbs": "4.1",
+				"fats": "9.5",
+				"fibre": "1.4"
+			},
+			{
+				"name": "Matar Paneer ",
+				"portion": "Small bowl",
+				"protein": "6.2",
+				"carbs": "11",
+				"fats": "7.8",
+				"fibre": "4.6"
+			},
+			{
+				"name": "Matar Paneer ",
+				"portion": "Big bowl",
+				"protein": "14.4",
+				"carbs": "25.7",
+				"fats": "18.2",
+				"fibre": "10.7"
+			},
+			{
+				"name": "Matar Paneer ",
+				"portion": "Gram",
+				"protein": "4.1",
+				"carbs": "7.3",
+				"fats": "5.2",
+				"fibre": "3.1"
+			},
+			{
+				"name": "Paneer Paratha ",
+				"portion": "One",
+				"protein": "10.1",
+				"carbs": "15.9",
+				"fats": "13.6",
+				"fibre": "2.4"
+			},
+			{
+				"name": "Paneer Paratha ",
+				"portion": "Gram",
+				"protein": "12.6",
+				"carbs": "19.8",
+				"fats": "17.1",
+				"fibre": "3"
+			},
+			{
+				"name": "Quinoa Salad ",
+				"portion": "Small bowl",
+				"protein": "2.2",
+				"carbs": "9.2",
+				"fats": "4.3",
+				"fibre": "1.8"
+			},
+			{
+				"name": "Quinoa Salad ",
+				"portion": "Big bowl",
+				"protein": "5.2",
+				"carbs": "21.4",
+				"fats": "10",
+				"fibre": "4.2"
+			},
+			{
+				"name": "Quinoa Salad ",
+				"portion": "Gram",
+				"protein": "2.2",
+				"carbs": "9.2",
+				"fats": "4.3",
+				"fibre": "1.8"
+			},
+			{
+				"name": "Stir Fried Vegetables With Tofu",
+				"portion": "Small bowl",
+				"protein": "5.3",
+				"carbs": "2.8",
+				"fats": "4.3",
+				"fibre": "0.6"
+			},
+			{
+				"name": "Stir Fried Vegetables With Tofu",
+				"portion": "Big bowl",
+				"protein": "12.2",
+				"carbs": "6.5",
+				"fats": "9.9",
+				"fibre": "1.4"
+			},
+			{
+				"name": "Stir Fried Vegetables With Tofu",
+				"portion": "Gram",
+				"protein": "5.3",
+				"carbs": "2.8",
+				"fats": "4.3",
+				"fibre": "0.6"
+			},
+			{
+				"name": "Soya Moong (Mung) Dal Khichadi ",
+				"portion": "Small bowl",
+				"protein": "3.8",
+				"carbs": "10.5",
+				"fats": "2",
+				"fibre": "1.5"
+			},
+			{
+				"name": "Soya Moong (Mung) Dal Khichadi ",
+				"portion": "Big bowl",
+				"protein": "8.8",
+				"carbs": "24.4",
+				"fats": "4.6",
+				"fibre": "3.4"
+			},
+			{
+				"name": "Soya Moong (Mung) Dal Khichadi ",
+				"portion": "Gram",
+				"protein": "3.8",
+				"carbs": "10.5",
+				"fats": "2",
+				"fibre": "1.5"
+			},
+			{
+				"name": "Black Bean Burrito ",
+				"portion": "One",
+				"protein": "10.8",
+				"carbs": "31.1",
+				"fats": "5.6",
+				"fibre": "6.2"
+			},
+			{
+				"name": "Black Bean Burrito ",
+				"portion": "Gram",
+				"protein": "5.8",
+				"carbs": "16.6",
+				"fats": "3",
+				"fibre": "3.3"
+			},
+			{
+				"name": "Black Bean Salad ",
+				"portion": "Big bowl",
+				"protein": "6.6",
+				"carbs": "18.7",
+				"fats": "4.4",
+				"fibre": "6.5"
+			},
+			{
+				"name": "Black Bean Salad ",
+				"portion": "Gram",
+				"protein": "3.4",
+				"carbs": "9.6",
+				"fats": "2.3",
+				"fibre": "3.3"
+			},
+			{
+				"name": "Paneer Tikka ",
+				"portion": "One",
+				"protein": "4.2",
+				"carbs": "2.7",
+				"fats": "5.8",
+				"fibre": "0.6"
+			},
+			{
+				"name": "Paneer Tikka ",
+				"portion": "Gram",
+				"protein": "10.8",
+				"carbs": "7",
+				"fats": "15",
+				"fibre": "1.5"
+			},
+			{
+				"name": "Protein Bar",
+				"portion": "One",
+				"protein": "4.8",
+				"carbs": "16",
+				"fats": "11.2",
+				"fibre": "3.8"
+			},
+			{
+				"name": "Protein Bar",
+				"portion": "Gram",
+				"protein": "12.5",
+				"carbs": "42.2",
+				"fats": "29.5",
+				"fibre": "10.1"
+			},
+			{
+				"name": "Coconut Water",
+				"portion": "glass",
+				"protein": "3.5",
+				"carbs": "11",
+				"fats": "0.2",
+				"fibre": "2.8"
+			},
+			{
+				"name": "Coconut Water",
+				"portion": "ml",
+				"protein": "1.4",
+				"carbs": "4.4",
+				"fats": "0.1",
+				"fibre": "1.1"
+			},
+			{
+				"name": "Soya Upma",
+				"portion": "Small bowl",
+				"protein": "7.2",
+				"carbs": "10.5",
+				"fats": "2",
+				"fibre": "3.6"
+			},
+			{
+				"name": "Soya Upma",
+				"portion": "Gram",
+				"protein": "5.5",
+				"carbs": "8.1",
+				"fats": "1.5",
+				"fibre": "2.8"
+			},
+			{
+				"name": "Chickpea Curry",
+				"portion": "Small bowl",
+				"protein": "3.3",
+				"carbs": "13.4",
+				"fats": "8.1",
+				"fibre": "5.8"
+			},
+			{
+				"name": "Chickpea Curry",
+				"portion": "Big bowl",
+				"protein": "7.7",
+				"carbs": "31.2",
+				"fats": "18.8",
+				"fibre": "13.4"
+			},
+			{
+				"name": "Chickpea Curry",
+				"portion": "Gram",
+				"protein": "2.2",
+				"carbs": "8.9",
+				"fats": "5.4",
+				"fibre": "3.8"
+			},
+			{
+				"name": "Steamed Chickpea ",
+				"portion": "Small bowl",
+				"protein": "7.6",
+				"carbs": "27.2",
+				"fats": "2.4",
+				"fibre": "12.6"
+			},
+			{
+				"name": "Steamed Chickpea ",
+				"portion": "Big bowl",
+				"protein": "17.9",
+				"carbs": "63.8",
+				"fats": "5.6",
+				"fibre": "29.7"
+			},
+			{
+				"name": "Steamed Chickpea ",
+				"portion": "Gram",
+				"protein": "7.8",
+				"carbs": "27.7",
+				"fats": "2.4",
+				"fibre": "12.9"
+			},
+			{
+				"name": "Paneer Shawarma",
+				"portion": "One",
+				"protein": "21.6",
+				"carbs": "28.8",
+				"fats": "33.5",
+				"fibre": "5.6"
+			},
+			{
+				"name": "Paneer Shawarma",
+				"portion": "Gram",
+				"protein": "9",
+				"carbs": "12",
+				"fats": "14",
+				"fibre": "2.3"
+			},
+			{
+				"name": "Chia Seeds",
+				"portion": "Gram",
+				"protein": "16.5",
+				"carbs": "42.1",
+				"fats": "30.7",
+				"fibre": "34.4"
+			},
+			{
+				"name": "Chia Seeds Sharbat ",
+				"portion": "Glass",
+				"protein": "1.2",
+				"carbs": "17",
+				"fats": "2.1",
+				"fibre": "2.4"
+			},
+			{
+				"name": "Chia Seeds Sharbat ",
+				"portion": "ml",
+				"protein": "0.5",
+				"carbs": "6.8",
+				"fats": "0.9",
+				"fibre": "1"
+			},
+			{
+				"name": "Milk",
+				"portion": "Glass",
+				"protein": "8",
+				"carbs": "11",
+				"fats": "10.2",
+				"fibre": "0"
+			},
+			{
+				"name": "Milk",
+				"portion": "ml",
+				"protein": "3.3",
+				"carbs": "4.5",
+				"fats": "4.2",
+				"fibre": "0"
+			},
+			{
+				"name": "Soy Milk ",
+				"portion": "ml",
+				"protein": "6.5",
+				"carbs": "12.6",
+				"fats": "3.5",
+				"fibre": "0"
+			},
+			{
+				"name": "Steamed Broccoli",
+				"portion": "Gram",
+				"protein": "2.4",
+				"carbs": "7.1",
+				"fats": "0.4",
+				"fibre": "3.3"
+			},
+			{
+				"name": "Broccoli Soup ",
+				"portion": "Small bowl",
+				"protein": "4.4",
+				"carbs": "9.6",
+				"fats": "6.2",
+				"fibre": "1.4"
+			},
+			{
+				"name": "Broccoli Soup ",
+				"portion": "Big bowl",
+				"protein": "10.2",
+				"carbs": "22.4",
+				"fats": "14.4",
+				"fibre": "3.2"
+			},
+			{
+				"name": "Broccoli Soup ",
+				"portion": "Gram",
+				"protein": "2.9",
+				"carbs": "6.4",
+				"fats": "4.1",
+				"fibre": "0.9"
+			},
+			{
+				"name": "Avocado",
+				"portion": "One",
+				"protein": "3.4",
+				"carbs": "1.6",
+				"fats": "45.8",
+				"fibre": "13.5"
+			},
+			{
+				"name": "Avocado",
+				"portion": "Gram",
+				"protein": "1.7",
+				"carbs": "0.8",
+				"fats": "22.8",
+				"fibre": "6.7"
+			},
+			{
+				"name": "Avocado Toast ",
+				"portion": "One",
+				"protein": "2.6",
+				"carbs": "16",
+				"fats": "9.2",
+				"fibre": "4.1"
+			},
+			{
+				"name": "Avocado Toast ",
+				"portion": "Gram",
+				"protein": "3",
+				"carbs": "18.9",
+				"fats": "10.9",
+				"fibre": "4.9"
+			},
+			{
+				"name": "Avocado Smoothie",
+				"portion": "One",
+				"protein": "6.6",
+				"carbs": "14",
+				"fats": "24.6",
+				"fibre": "5.2"
+			},
+			{
+				"name": "Avocado Smoothie",
+				"portion": "ml",
+				"protein": "2.7",
+				"carbs": "5.6",
+				"fats": "9.8",
+				"fibre": "2.1"
+			},
+			{
+				"name": "Boiled Quinoa",
+				"portion": "Gram",
+				"protein": "4.4",
+				"carbs": "21.3",
+				"fats": "1.9",
+				"fibre": "2.8"
+			},
+			{
+				"name": "Quinoa Salad",
+				"portion": "Small bowl",
+				"protein": "2.2",
+				"carbs": "9.2",
+				"fats": "4.3",
+				"fibre": "1.8"
+			},
+			{
+				"name": "Quinoa Salad",
+				"portion": "Big bowl",
+				"protein": "5.2",
+				"carbs": "21.4",
+				"fats": "10",
+				"fibre": "4.2"
+			},
+			{
+				"name": "Quinoa Salad",
+				"portion": "Gram",
+				"protein": "2.2",
+				"carbs": "9.2",
+				"fats": "4.3",
+				"fibre": "1.8"
+			},
+			{
+				"name": "Buckwheat Porridge ",
+				"portion": "Small bowl",
+				"protein": "3.6",
+				"carbs": "19.2",
+				"fats": "1.7",
+				"fibre": "2.7"
+			},
+			{
+				"name": "Buckwheat Porridge ",
+				"portion": "Big bowl",
+				"protein": "8.7",
+				"carbs": "46.6",
+				"fats": "4.2",
+				"fibre": "6.6"
+			},
+			{
+				"name": "Buckwheat Porridge ",
+				"portion": "Gram",
+				"protein": "2.6",
+				"carbs": "13.7",
+				"fats": "1.2",
+				"fibre": "1.9"
+			},
+			{
+				"name": "Guava",
+				"portion": "One",
+				"protein": "1.8",
+				"carbs": "10",
+				"fats": "0.7",
+				"fibre": "3.8"
+			},
+			{
+				"name": "Guava",
+				"portion": "Gram",
+				"protein": "2.5",
+				"carbs": "14.3",
+				"fats": "0.9",
+				"fibre": "5.4"
+			},
+			{
+				"name": "Guava Juice",
+				"portion": "Glass",
+				"protein": "3.7",
+				"carbs": "24.5",
+				"fats": "1.4",
+				"fibre": "7.8"
+			},
+			{
+				"name": "Guava Juice",
+				"portion": "ml",
+				"protein": "1.5",
+				"carbs": "9.8",
+				"fats": "0.5",
+				"fibre": "3.1"
+			},
+			{
+				"name": "Parmesan",
+				"portion": "Gram",
+				"protein": "35.8",
+				"carbs": "3.2",
+				"fats": "25.8",
+				"fibre": "0"
+			},
+			{
+				"name": "Edam",
+				"portion": "Gram",
+				"protein": "25",
+				"carbs": "1.4",
+				"fats": "27.8",
+				"fibre": "0"
+			},
+			{
+				"name": "Cheddar",
+				"portion": "Gram",
+				"protein": "24.9",
+				"carbs": "1.3",
+				"fats": "33.1",
+				"fibre": "0"
+			},
+			{
+				"name": "Dal",
+				"portion": "Small bowl",
+				"protein": "8.5",
+				"carbs": "20.8",
+				"fats": "2.3",
+				"fibre": "2.9"
+			},
+			{
+				"name": "Dal",
+				"portion": "Big bowl",
+				"protein": "19.8",
+				"carbs": "48.3",
+				"fats": "5.2",
+				"fibre": "6.8"
+			},
+			{
+				"name": "Dal",
+				"portion": "Gram",
+				"protein": "6.1",
+				"carbs": "14.8",
+				"fats": "1.6",
+				"fibre": "2.1"
+			},
+			{
+				"name": "Daal",
+				"portion": "Small bowl",
+				"protein": "8.5",
+				"carbs": "20.8",
+				"fats": "2.3",
+				"fibre": "2.9"
+			},
+			{
+				"name": "Daal",
+				"portion": "Big bowl",
+				"protein": "19.8",
+				"carbs": "48.3",
+				"fats": "5.2",
+				"fibre": "6.8"
+			},
+			{
+				"name": "Daal",
+				"portion": "Gram",
+				"protein": "6.1",
+				"carbs": "14.8",
+				"fats": "1.6",
+				"fibre": "2.1"
+			},
+			{
+				"name": "Tur dal",
+				"portion": "Small bowl",
+				"protein": "6.9",
+				"carbs": "20.1",
+				"fats": "1.9",
+				"fibre": "3.5"
+			},
+			{
+				"name": "Tur dal",
+				"portion": "Big bowl",
+				"protein": "16.1",
+				"carbs": "46.9",
+				"fats": "4.4",
+				"fibre": "8.2"
+			},
+			{
+				"name": "Tur dal",
+				"portion": "Gram",
+				"protein": "5",
+				"carbs": "14.4",
+				"fats": "1.4",
+				"fibre": "2.5"
+			},
+			{
+				"name": "Toor dal",
+				"portion": "Small bowl",
+				"protein": "6.9",
+				"carbs": "20.1",
+				"fats": "1.9",
+				"fibre": "3.5"
+			},
+			{
+				"name": "Toor dal",
+				"portion": "Big bowl",
+				"protein": "16.1",
+				"carbs": "46.9",
+				"fats": "4.4",
+				"fibre": "8.2"
+			},
+			{
+				"name": "Toor dal",
+				"portion": "Gram",
+				"protein": "5",
+				"carbs": "14.4",
+				"fats": "1.4",
+				"fibre": "2.5"
+			},
+			{
+				"name": "Tur daal",
+				"portion": "Small bowl",
+				"protein": "6.9",
+				"carbs": "20.1",
+				"fats": "1.9",
+				"fibre": "3.5"
+			},
+			{
+				"name": "Tur daal",
+				"portion": "Big bowl",
+				"protein": "16.1",
+				"carbs": "46.9",
+				"fats": "4.4",
+				"fibre": "8.2"
+			},
+			{
+				"name": "Tur daal",
+				"portion": "Gram",
+				"protein": "5",
+				"carbs": "14.4",
+				"fats": "1.4",
+				"fibre": "2.5"
+			},
+			{
+				"name": "Toor daal",
+				"portion": "Small bowl",
+				"protein": "6.9",
+				"carbs": "20.1",
+				"fats": "1.9",
+				"fibre": "3.5"
+			},
+			{
+				"name": "Toor daal",
+				"portion": "Big bowl",
+				"protein": "16.1",
+				"carbs": "46.9",
+				"fats": "4.4",
+				"fibre": "8.2"
+			},
+			{
+				"name": "Toor daal",
+				"portion": "Gram",
+				"protein": "5",
+				"carbs": "14.4",
+				"fats": "1.4",
+				"fibre": "2.5"
+			},
+			{
+				"name": "Dal tadka",
+				"portion": "Small bowl",
+				"protein": "6.9",
+				"carbs": "20.1",
+				"fats": "1.9",
+				"fibre": "3.5"
+			},
+			{
+				"name": "Dal tadka",
+				"portion": "Big bowl",
+				"protein": "16.1",
+				"carbs": "46.9",
+				"fats": "4.4",
+				"fibre": "8.2"
+			},
+			{
+				"name": "Dal tadka",
+				"portion": "Gram",
+				"protein": "5",
+				"carbs": "14.4",
+				"fats": "1.4",
+				"fibre": "2.5"
+			},
+			{
+				"name": "Daal tadka",
+				"portion": "Small bowl",
+				"protein": "6.9",
+				"carbs": "20.1",
+				"fats": "1.9",
+				"fibre": "3.5"
+			},
+			{
+				"name": "Daal tadka",
+				"portion": "Big bowl",
+				"protein": "16.1",
+				"carbs": "46.9",
+				"fats": "4.4",
+				"fibre": "8.2"
+			},
+			{
+				"name": "Daal tadka",
+				"portion": "Gram",
+				"protein": "5",
+				"carbs": "14.4",
+				"fats": "1.4",
+				"fibre": "2.5"
+			},
+			{
+				"name": "Kali Udad dal",
+				"portion": "Small bowl",
+				"protein": "8.3",
+				"carbs": "21.1",
+				"fats": "3.8",
+				"fibre": "4.2"
+			},
+			{
+				"name": "Kali Udad dal",
+				"portion": "Big bowl",
+				"protein": "19.3",
+				"carbs": "49",
+				"fats": "8.8",
+				"fibre": "9.8"
+			},
+			{
+				"name": "Kali Udad dal",
+				"portion": "Gram",
+				"protein": "5.9",
+				"carbs": "15",
+				"fats": "2.7",
+				"fibre": "3"
+			},
+			{
+				"name": "Kali Udad daal",
+				"portion": "Small bowl",
+				"protein": "8.3",
+				"carbs": "21.1",
+				"fats": "3.8",
+				"fibre": "4.2"
+			},
+			{
+				"name": "Kali Udad daal",
+				"portion": "Big bowl",
+				"protein": "19.3",
+				"carbs": "49",
+				"fats": "8.8",
+				"fibre": "9.8"
+			},
+			{
+				"name": "Kali Udad daal",
+				"portion": "Gram",
+				"protein": "5.9",
+				"carbs": "15",
+				"fats": "2.7",
+				"fibre": "3"
+			},
+			{
+				"name": "Moong dal",
+				"portion": "Small bowl",
+				"protein": "8.5",
+				"carbs": "20.8",
+				"fats": "2.3",
+				"fibre": "2.9"
+			},
+			{
+				"name": "Moong dal",
+				"portion": "Big bowl",
+				"protein": "19.8",
+				"carbs": "48.3",
+				"fats": "5.2",
+				"fibre": "6.8"
+			},
+			{
+				"name": "Moong dal",
+				"portion": "Gram",
+				"protein": "6.1",
+				"carbs": "14.8",
+				"fats": "1.6",
+				"fibre": "2.1"
+			},
+			{
+				"name": "Moong daal",
+				"portion": "Small bowl",
+				"protein": "8.5",
+				"carbs": "20.8",
+				"fats": "2.3",
+				"fibre": "2.9"
+			},
+			{
+				"name": "Moong daal",
+				"portion": "Big bowl",
+				"protein": "19.8",
+				"carbs": "48.3",
+				"fats": "5.2",
+				"fibre": "6.8"
+			},
+			{
+				"name": "Moong daal",
+				"portion": "Gram",
+				"protein": "6.1",
+				"carbs": "14.8",
+				"fats": "1.6",
+				"fibre": "2.1"
+			},
+			{
+				"name": "Masoor dal ",
+				"portion": "Small bowl",
+				"protein": "7.7",
+				"carbs": "18.4",
+				"fats": "2.1",
+				"fibre": "3.6"
+			},
+			{
+				"name": "Masoor dal ",
+				"portion": "Big bowl",
+				"protein": "17.9",
+				"carbs": "42.8",
+				"fats": "4.9",
+				"fibre": "8.4"
+			},
+			{
+				"name": "Masoor dal ",
+				"portion": "Gram",
+				"protein": "5.5",
+				"carbs": "13.1",
+				"fats": "1.5",
+				"fibre": "2.6"
+			},
+			{
+				"name": "Masoor daal ",
+				"portion": "Small bowl",
+				"protein": "7.7",
+				"carbs": "18.4",
+				"fats": "2.1",
+				"fibre": "3.6"
+			},
+			{
+				"name": "Masoor daal ",
+				"portion": "Big bowl",
+				"protein": "17.9",
+				"carbs": "42.8",
+				"fats": "4.9",
+				"fibre": "8.4"
+			},
+			{
+				"name": "Masoor daal ",
+				"portion": "Gram",
+				"protein": "5.5",
+				"carbs": "13.1",
+				"fats": "1.5",
+				"fibre": "2.6"
+			},
+			{
+				"name": "Poached egg",
+				"portion": "One",
+				"protein": "6.3",
+				"carbs": "0.4",
+				"fats": "4.7",
+				"fibre": "0"
+			},
+			{
+				"name": "Poached egg",
+				"portion": "Gram",
+				"protein": "12.5",
+				"carbs": "0.7",
+				"fats": "9.5",
+				"fibre": "0"
+			},
+			{
+				"name": "Boiled egg",
+				"portion": "One",
+				"protein": "6.7",
+				"carbs": "1",
+				"fats": "6.7",
+				"fibre": "0"
+			},
+			{
+				"name": "Boiled egg",
+				"portion": "Gram",
+				"protein": "13.3",
+				"carbs": "2",
+				"fats": "13.3",
+				"fibre": "0"
+			},
+			{
+				"name": "Egg bhurji",
+				"portion": "One",
+				"protein": "7.6",
+				"carbs": "4.8",
+				"fats": "11.9",
+				"fibre": "1.3"
+			},
+			{
+				"name": "Egg bhurji",
+				"portion": "Gram",
+				"protein": "8.4",
+				"carbs": "5.3",
+				"fats": "13.2",
+				"fibre": "1.4"
+			},
+			{
+				"name": "Omlette",
+				"portion": "One",
+				"protein": "6",
+				"carbs": "2.5",
+				"fats": "8.1",
+				"fibre": "0.4"
+			},
+			{
+				"name": "Omlette",
+				"portion": "Gram",
+				"protein": "9.8",
+				"carbs": "4",
+				"fats": "13.1",
+				"fibre": "0.6"
+			},
+			{
+				"name": "Sunny side up eggs",
+				"portion": "One",
+				"protein": "6.7",
+				"carbs": "1",
+				"fats": "11.2",
+				"fibre": "0"
+			},
+			{
+				"name": "Sunny side up eggs",
+				"portion": "Gram",
+				"protein": "12.2",
+				"carbs": "1.8",
+				"fats": "20.5",
+				"fibre": "0"
+			},
+			{
+				"name": "Full fry eggs",
+				"portion": "One",
+				"protein": "6.8",
+				"carbs": "1.5",
+				"fats": "8.7",
+				"fibre": "0.4"
+			},
+			{
+				"name": "Full fry eggs",
+				"portion": "Gram",
+				"protein": "12.5",
+				"carbs": "2.8",
+				"fats": "16",
+				"fibre": "0.7"
+			},
+			{
+				"name": "Half fry eggs",
+				"portion": "One",
+				"protein": "6.7",
+				"carbs": "1",
+				"fats": "11.2",
+				"fibre": "0"
+			},
+			{
+				"name": "Half fry eggs",
+				"portion": "Gram",
+				"protein": "12.2",
+				"carbs": "1.8",
+				"fats": "20.5",
+				"fibre": "0"
+			}
+		],
+		"vegetarian": [
+			{
+				"name": "Pistachios",
+				"portion": "Teacup",
+				"protein": "24.4",
+				"carbs": "19.9",
+				"fats": "65.8",
+				"fibre": "12.7"
+			},
+			{
+				"name": "Pistachios",
+				"portion": "Gram",
+				"protein": "19.8",
+				"carbs": "16.2",
+				"fats": "53.5",
+				"fibre": "10.3"
+			},
+			{
+				"name": "Baked Tempeh",
+				"portion": "One",
+				"protein": "3.7",
+				"carbs": "1.5",
+				"fats": "2.8",
+				"fibre": "0"
+			},
+			{
+				"name": "Baked Tempeh",
+				"portion": "Gram",
+				"protein": "18.5",
+				"carbs": "7.3",
+				"fats": "14",
+				"fibre": "0.1"
+			},
+			{
+				"name": "Walnuts",
+				"portion": "Gram",
+				"protein": "15.6",
+				"carbs": "11",
+				"fats": "64.5",
+				"fibre": "6.7"
+			},
+			{
+				"name": "Kidney Beans",
+				"portion": "Gram",
+				"protein": "22.9",
+				"carbs": "60.9",
+				"fats": "1.3",
+				"fibre": "24.9"
+			},
+			{
+				"name": "Kidney Beans",
+				"portion": "Small bowl",
+				"protein": "42.1",
+				"carbs": "111.5",
+				"fats": "2.4",
+				"fibre": "45.8"
+			},
+			{
+				"name": "Kidney Beans Curry",
+				"portion": "Big bowl",
+				"protein": "13.6",
+				"carbs": "39.9",
+				"fats": "6.5",
+				"fibre": "16"
+			},
+			{
+				"name": "Kidney Beans Curry",
+				"portion": "Gram",
+				"protein": "3.9",
+				"carbs": "11.4",
+				"fats": "1.9",
+				"fibre": "4.6"
+			},
+			{
+				"name": "Kidney Bean Salad",
+				"portion": "Small bowl",
+				"protein": "8.1",
+				"carbs": "22.5",
+				"fats": "0.5",
+				"fibre": "6.2"
+			},
+			{
+				"name": "Kidney Bean Salad",
+				"portion": "Big bowl",
+				"protein": "19",
+				"carbs": "52.5",
+				"fats": "1.3",
+				"fibre": "14.4"
+			},
+			{
+				"name": "Kidney Bean Salad",
+				"portion": "Gram",
+				"protein": "5.4",
+				"carbs": "15",
+				"fats": "0.4",
+				"fibre": "4.1"
+			},
+			{
+				"name": "Kidney Beans Nachos",
+				"portion": "Gram",
+				"protein": "5.6",
+				"carbs": "17.8",
+				"fats": "3.6",
+				"fibre": "3.3"
+			},
+			{
+				"name": "Kidney Beans Nachos",
+				"portion": "Small bowl",
+				"protein": "13.4",
+				"carbs": "42.8",
+				"fats": "8.7",
+				"fibre": "7.9"
+			},
+			{
+				"name": "Kidney Beans Boiled",
+				"portion": "Small bowl",
+				"protein": "9.2",
+				"carbs": "24.2",
+				"fats": "0.5",
+				"fibre": "6.8"
+			},
+			{
+				"name": "Kidney Beans Boiled",
+				"portion": "Big bowl",
+				"protein": "21.5",
+				"carbs": "56.5",
+				"fats": "1.2",
+				"fibre": "15.9"
+			},
+			{
+				"name": "Kidney Beans Boiled",
+				"portion": "Gram",
+				"protein": "8.7",
+				"carbs": "22.8",
+				"fats": "0.5",
+				"fibre": "6.4"
+			},
+			{
+				"name": "Kidney Beans Soup",
+				"portion": "Small bowl",
+				"protein": "3.7",
+				"carbs": "11.6",
+				"fats": "1.3",
+				"fibre": "4.4"
+			},
+			{
+				"name": "Kidney Beans Soup",
+				"portion": "Big bowl",
+				"protein": "8.7",
+				"carbs": "26.9",
+				"fats": "3.1",
+				"fibre": "10.3"
+			},
+			{
+				"name": "Sunflower Seeds",
+				"portion": "Gram",
+				"protein": "19.8",
+				"carbs": "17.9",
+				"fats": "52.1",
+				"fibre": "8.6"
+			},
+			{
+				"name": "Sunflower Seeds",
+				"portion": "Small bowl",
+				"protein": "27.7",
+				"carbs": "25.1",
+				"fats": "72.9",
+				"fibre": "12"
+			},
+			{
+				"name": "Roasted Peanuts",
+				"portion": "Gram",
+				"protein": "26.2",
+				"carbs": "26.7",
+				"fats": "39.8",
+				"fibre": "11"
+			},
+			{
+				"name": "Roasted Peanuts",
+				"portion": "Small bowl",
+				"protein": "38.3",
+				"carbs": "39",
+				"fats": "58.1",
+				"fibre": "16.1"
+			},
+			{
+				"name": "Soy Meat",
+				"portion": "Small bowl",
+				"protein": "23.4",
+				"carbs": "14.9",
+				"fats": "0.2",
+				"fibre": "5.9"
+			},
+			{
+				"name": "Soy Meat",
+				"portion": "Gram",
+				"protein": "52",
+				"carbs": "33",
+				"fats": "0.5",
+				"fibre": "13"
+			},
+			{
+				"name": "Soy Milk",
+				"portion": "Glass",
+				"protein": "6.5",
+				"carbs": "12.6",
+				"fats": "3.5",
+				"fibre": "0"
+			},
+			{
+				"name": "Soy Milk",
+				"portion": "ml",
+				"protein": "3.3",
+				"carbs": "6.3",
+				"fats": "1.8",
+				"fibre": "0"
+			},
+			{
+				"name": "Soy Paneer",
+				"portion": "Gram",
+				"protein": "8.1",
+				"carbs": "1.9",
+				"fats": "4.8",
+				"fibre": "0.3"
+			},
+			{
+				"name": "Soy Paneer",
+				"portion": "Small bowl",
+				"protein": "20",
+				"carbs": "4.6",
+				"fats": "11.9",
+				"fibre": "0.8"
+			},
+			{
+				"name": "Soya Chaap",
+				"portion": "Small bowl",
+				"protein": "26.6",
+				"carbs": "20.4",
+				"fats": "2.9",
+				"fibre": "7.8"
+			},
+			{
+				"name": "Soya Chaap",
+				"portion": "Big bowl",
+				"protein": "62.1",
+				"carbs": "47.7",
+				"fats": "6.6",
+				"fibre": "18.2"
+			},
+			{
+				"name": "Soya Chaap",
+				"portion": "Gram",
+				"protein": "17.8",
+				"carbs": "13.6",
+				"fats": "1.9",
+				"fibre": "5.2"
+			},
+			{
+				"name": "Soy Nuts",
+				"portion": "Small bowl",
+				"protein": "68",
+				"carbs": "56",
+				"fats": "37",
+				"fibre": "14"
+			},
+			{
+				"name": "Soy Nuts",
+				"portion": "Gram",
+				"protein": "39.5",
+				"carbs": "32.6",
+				"fats": "21.5",
+				"fibre": "8.1"
+			},
+			{
+				"name": "Soy Sticks",
+				"portion": "Small bowl",
+				"protein": "12.2",
+				"carbs": "3.6",
+				"fats": "7.2",
+				"fibre": "1.1"
+			},
+			{
+				"name": "Soy Sticks",
+				"portion": "Gram",
+				"protein": "8.1",
+				"carbs": "2.4",
+				"fats": "4.8",
+				"fibre": "0.7"
+			},
+			{
+				"name": "Soy Bread",
+				"portion": "One",
+				"protein": "3.3",
+				"carbs": "11.7",
+				"fats": "1",
+				"fibre": "0.9"
+			},
+			{
+				"name": "Soy Bread",
+				"portion": "Gram",
+				"protein": "13",
+				"carbs": "45.4",
+				"fats": "3.9",
+				"fibre": "3.5"
+			},
+			{
+				"name": "Soy Cappuccino",
+				"portion": "ml",
+				"protein": "3.3",
+				"carbs": "7.6",
+				"fats": "1.7",
+				"fibre": "0"
+			},
+			{
+				"name": "Soy Cappuccino",
+				"portion": "Glass",
+				"protein": "8.2",
+				"carbs": "19.1",
+				"fats": "4.3",
+				"fibre": "0"
+			},
+			{
+				"name": "Soya Chunks",
+				"portion": "Gram",
+				"protein": "52",
+				"carbs": "33",
+				"fats": "0.5",
+				"fibre": "13"
+			},
+			{
+				"name": "Soya Chunks",
+				"portion": "Small bowl",
+				"protein": "23.4",
+				"carbs": "14.9",
+				"fats": "0.2",
+				"fibre": "5.9"
+			},
+			{
+				"name": "Soya Bean",
+				"portion": "Small bowl",
+				"protein": "80.4",
+				"carbs": "38.9",
+				"fats": "36.3",
+				"fibre": "42.8"
+			},
+			{
+				"name": "Soya Bean",
+				"portion": "Gram",
+				"protein": "43.2",
+				"carbs": "20.9",
+				"fats": "19.5",
+				"fibre": "23"
+			},
+			{
+				"name": "Soya Bhurji",
+				"portion": "Gram",
+				"protein": "7.8",
+				"carbs": "9.5",
+				"fats": "4.4",
+				"fibre": "3.4"
+			},
+			{
+				"name": "Soya Bhurji",
+				"portion": "Big bowl",
+				"protein": "18",
+				"carbs": "22.2",
+				"fats": "10.3",
+				"fibre": "7.8"
+			},
+			{
+				"name": "Green Moong Cheela",
+				"portion": "One",
+				"protein": "6",
+				"carbs": "16.1",
+				"fats": "4.9",
+				"fibre": "2.3"
+			},
+			{
+				"name": "Green Moong Cheela",
+				"portion": "Gram",
+				"protein": "7.5",
+				"carbs": "20.2",
+				"fats": "6.1",
+				"fibre": "2.8"
+			},
+			{
+				"name": "Pumpkin Seeds",
+				"portion": "Gram",
+				"protein": "24.3",
+				"carbs": "15.6",
+				"fats": "47.2",
+				"fibre": "3.3"
+			},
+			{
+				"name": "Greek Yogurt",
+				"portion": "Small bowl",
+				"protein": "5.1",
+				"carbs": "7",
+				"fats": "5.7",
+				"fibre": "0"
+			},
+			{
+				"name": "Greek Yogurt",
+				"portion": "Big bowl",
+				"protein": "11.9",
+				"carbs": "16.2",
+				"fats": "13.3",
+				"fibre": "0"
+			},
+			{
+				"name": "Greek Yogurt",
+				"portion": "Gram",
+				"protein": "3.4",
+				"carbs": "4.6",
+				"fats": "3.8",
+				"fibre": "0"
+			},
+			{
+				"name": "Quinoa Chickpea Salad ",
+				"portion": "Small bowl",
+				"protein": "2.9",
+				"carbs": "12",
+				"fats": "0.9",
+				"fibre": "4.5"
+			},
+			{
+				"name": "Quinoa Chickpea Salad ",
+				"portion": "Big bowl",
+				"protein": "6.9",
+				"carbs": "28",
+				"fats": "2.2",
+				"fibre": "10.5"
+			},
+			{
+				"name": "Quinoa Chickpea Salad ",
+				"portion": "Gram",
+				"protein": "3.5",
+				"carbs": "14.4",
+				"fats": "1.1",
+				"fibre": "5.4"
+			},
+			{
+				"name": "Palak Paneer ",
+				"portion": "Small bowl",
+				"protein": "6",
+				"carbs": "6.1",
+				"fats": "14.3",
+				"fibre": "2.1"
+			},
+			{
+				"name": "Palak Paneer ",
+				"portion": "Big bowl",
+				"protein": "13.9",
+				"carbs": "14.3",
+				"fats": "33.4",
+				"fibre": "4.8"
+			},
+			{
+				"name": "Palak Paneer ",
+				"portion": "Gram",
+				"protein": "4",
+				"carbs": "4.1",
+				"fats": "9.5",
+				"fibre": "1.4"
+			},
+			{
+				"name": "Matar Paneer ",
+				"portion": "Small bowl",
+				"protein": "6.2",
+				"carbs": "11",
+				"fats": "7.8",
+				"fibre": "4.6"
+			},
+			{
+				"name": "Matar Paneer ",
+				"portion": "Big bowl",
+				"protein": "14.4",
+				"carbs": "25.7",
+				"fats": "18.2",
+				"fibre": "10.7"
+			},
+			{
+				"name": "Matar Paneer ",
+				"portion": "Gram",
+				"protein": "4.1",
+				"carbs": "7.3",
+				"fats": "5.2",
+				"fibre": "3.1"
+			},
+			{
+				"name": "Paneer Paratha ",
+				"portion": "One",
+				"protein": "10.1",
+				"carbs": "15.9",
+				"fats": "13.6",
+				"fibre": "2.4"
+			},
+			{
+				"name": "Paneer Paratha ",
+				"portion": "Gram",
+				"protein": "12.6",
+				"carbs": "19.8",
+				"fats": "17.1",
+				"fibre": "3"
+			},
+			{
+				"name": "Quinoa Salad ",
+				"portion": "Small bowl",
+				"protein": "2.2",
+				"carbs": "9.2",
+				"fats": "4.3",
+				"fibre": "1.8"
+			},
+			{
+				"name": "Quinoa Salad ",
+				"portion": "Big bowl",
+				"protein": "5.2",
+				"carbs": "21.4",
+				"fats": "10",
+				"fibre": "4.2"
+			},
+			{
+				"name": "Quinoa Salad ",
+				"portion": "Gram",
+				"protein": "2.2",
+				"carbs": "9.2",
+				"fats": "4.3",
+				"fibre": "1.8"
+			},
+			{
+				"name": "Stir Fried Vegetables With Tofu",
+				"portion": "Small bowl",
+				"protein": "5.3",
+				"carbs": "2.8",
+				"fats": "4.3",
+				"fibre": "0.6"
+			},
+			{
+				"name": "Stir Fried Vegetables With Tofu",
+				"portion": "Big bowl",
+				"protein": "12.2",
+				"carbs": "6.5",
+				"fats": "9.9",
+				"fibre": "1.4"
+			},
+			{
+				"name": "Stir Fried Vegetables With Tofu",
+				"portion": "Gram",
+				"protein": "5.3",
+				"carbs": "2.8",
+				"fats": "4.3",
+				"fibre": "0.6"
+			},
+			{
+				"name": "Soya Moong (Mung) Dal Khichadi ",
+				"portion": "Small bowl",
+				"protein": "3.8",
+				"carbs": "10.5",
+				"fats": "2",
+				"fibre": "1.5"
+			},
+			{
+				"name": "Soya Moong (Mung) Dal Khichadi ",
+				"portion": "Big bowl",
+				"protein": "8.8",
+				"carbs": "24.4",
+				"fats": "4.6",
+				"fibre": "3.4"
+			},
+			{
+				"name": "Soya Moong (Mung) Dal Khichadi ",
+				"portion": "Gram",
+				"protein": "3.8",
+				"carbs": "10.5",
+				"fats": "2",
+				"fibre": "1.5"
+			},
+			{
+				"name": "Black Bean Burrito ",
+				"portion": "One",
+				"protein": "10.8",
+				"carbs": "31.1",
+				"fats": "5.6",
+				"fibre": "6.2"
+			},
+			{
+				"name": "Black Bean Burrito ",
+				"portion": "Gram",
+				"protein": "5.8",
+				"carbs": "16.6",
+				"fats": "3",
+				"fibre": "3.3"
+			},
+			{
+				"name": "Black Bean Salad ",
+				"portion": "Big bowl",
+				"protein": "6.6",
+				"carbs": "18.7",
+				"fats": "4.4",
+				"fibre": "6.5"
+			},
+			{
+				"name": "Black Bean Salad ",
+				"portion": "Gram",
+				"protein": "3.4",
+				"carbs": "9.6",
+				"fats": "2.3",
+				"fibre": "3.3"
+			},
+			{
+				"name": "Paneer Tikka ",
+				"portion": "One",
+				"protein": "4.2",
+				"carbs": "2.7",
+				"fats": "5.8",
+				"fibre": "0.6"
+			},
+			{
+				"name": "Paneer Tikka ",
+				"portion": "Gram",
+				"protein": "10.8",
+				"carbs": "7",
+				"fats": "15",
+				"fibre": "1.5"
+			},
+			{
+				"name": "Protein Bar",
+				"portion": "One",
+				"protein": "4.8",
+				"carbs": "16",
+				"fats": "11.2",
+				"fibre": "3.8"
+			},
+			{
+				"name": "Protein Bar",
+				"portion": "Gram",
+				"protein": "12.5",
+				"carbs": "42.2",
+				"fats": "29.5",
+				"fibre": "10.1"
+			},
+			{
+				"name": "Coconut Water",
+				"portion": "glass",
+				"protein": "3.5",
+				"carbs": "11",
+				"fats": "0.2",
+				"fibre": "2.8"
+			},
+			{
+				"name": "Coconut Water",
+				"portion": "ml",
+				"protein": "1.4",
+				"carbs": "4.4",
+				"fats": "0.1",
+				"fibre": "1.1"
+			},
+			{
+				"name": "Soya Upma",
+				"portion": "Small bowl",
+				"protein": "7.2",
+				"carbs": "10.5",
+				"fats": "2",
+				"fibre": "3.6"
+			},
+			{
+				"name": "Soya Upma",
+				"portion": "Gram",
+				"protein": "5.5",
+				"carbs": "8.1",
+				"fats": "1.5",
+				"fibre": "2.8"
+			},
+			{
+				"name": "Chickpea Curry",
+				"portion": "Small bowl",
+				"protein": "3.3",
+				"carbs": "13.4",
+				"fats": "8.1",
+				"fibre": "5.8"
+			},
+			{
+				"name": "Chickpea Curry",
+				"portion": "Big bowl",
+				"protein": "7.7",
+				"carbs": "31.2",
+				"fats": "18.8",
+				"fibre": "13.4"
+			},
+			{
+				"name": "Chickpea Curry",
+				"portion": "Gram",
+				"protein": "2.2",
+				"carbs": "8.9",
+				"fats": "5.4",
+				"fibre": "3.8"
+			},
+			{
+				"name": "Steamed Chickpea ",
+				"portion": "Small bowl",
+				"protein": "7.6",
+				"carbs": "27.2",
+				"fats": "2.4",
+				"fibre": "12.6"
+			},
+			{
+				"name": "Steamed Chickpea ",
+				"portion": "Big bowl",
+				"protein": "17.9",
+				"carbs": "63.8",
+				"fats": "5.6",
+				"fibre": "29.7"
+			},
+			{
+				"name": "Steamed Chickpea ",
+				"portion": "Gram",
+				"protein": "7.8",
+				"carbs": "27.7",
+				"fats": "2.4",
+				"fibre": "12.9"
+			},
+			{
+				"name": "Paneer Shawarma",
+				"portion": "One",
+				"protein": "21.6",
+				"carbs": "28.8",
+				"fats": "33.5",
+				"fibre": "5.6"
+			},
+			{
+				"name": "Paneer Shawarma",
+				"portion": "Gram",
+				"protein": "9",
+				"carbs": "12",
+				"fats": "14",
+				"fibre": "2.3"
+			},
+			{
+				"name": "Chia Seeds",
+				"portion": "Gram",
+				"protein": "16.5",
+				"carbs": "42.1",
+				"fats": "30.7",
+				"fibre": "34.4"
+			},
+			{
+				"name": "Chia Seeds Sharbat ",
+				"portion": "Glass",
+				"protein": "1.2",
+				"carbs": "17",
+				"fats": "2.1",
+				"fibre": "2.4"
+			},
+			{
+				"name": "Chia Seeds Sharbat ",
+				"portion": "ml",
+				"protein": "0.5",
+				"carbs": "6.8",
+				"fats": "0.9",
+				"fibre": "1"
+			},
+			{
+				"name": "Milk",
+				"portion": "Glass",
+				"protein": "8",
+				"carbs": "11",
+				"fats": "10.2",
+				"fibre": "0"
+			},
+			{
+				"name": "Milk",
+				"portion": "ml",
+				"protein": "3.3",
+				"carbs": "4.5",
+				"fats": "4.2",
+				"fibre": "0"
+			},
+			{
+				"name": "Soy Milk ",
+				"portion": "ml",
+				"protein": "6.5",
+				"carbs": "12.6",
+				"fats": "3.5",
+				"fibre": "0"
+			},
+			{
+				"name": "Steamed Broccoli",
+				"portion": "Gram",
+				"protein": "2.4",
+				"carbs": "7.1",
+				"fats": "0.4",
+				"fibre": "3.3"
+			},
+			{
+				"name": "Broccoli Soup ",
+				"portion": "Small bowl",
+				"protein": "4.4",
+				"carbs": "9.6",
+				"fats": "6.2",
+				"fibre": "1.4"
+			},
+			{
+				"name": "Broccoli Soup ",
+				"portion": "Big bowl",
+				"protein": "10.2",
+				"carbs": "22.4",
+				"fats": "14.4",
+				"fibre": "3.2"
+			},
+			{
+				"name": "Broccoli Soup ",
+				"portion": "Gram",
+				"protein": "2.9",
+				"carbs": "6.4",
+				"fats": "4.1",
+				"fibre": "0.9"
+			},
+			{
+				"name": "Avocado",
+				"portion": "One",
+				"protein": "3.4",
+				"carbs": "1.6",
+				"fats": "45.8",
+				"fibre": "13.5"
+			},
+			{
+				"name": "Avocado",
+				"portion": "Gram",
+				"protein": "1.7",
+				"carbs": "0.8",
+				"fats": "22.8",
+				"fibre": "6.7"
+			},
+			{
+				"name": "Avocado Toast ",
+				"portion": "One",
+				"protein": "2.6",
+				"carbs": "16",
+				"fats": "9.2",
+				"fibre": "4.1"
+			},
+			{
+				"name": "Avocado Toast ",
+				"portion": "Gram",
+				"protein": "3",
+				"carbs": "18.9",
+				"fats": "10.9",
+				"fibre": "4.9"
+			},
+			{
+				"name": "Avocado Smoothie",
+				"portion": "One",
+				"protein": "6.6",
+				"carbs": "14",
+				"fats": "24.6",
+				"fibre": "5.2"
+			},
+			{
+				"name": "Avocado Smoothie",
+				"portion": "ml",
+				"protein": "2.7",
+				"carbs": "5.6",
+				"fats": "9.8",
+				"fibre": "2.1"
+			},
+			{
+				"name": "Boiled Quinoa",
+				"portion": "Gram",
+				"protein": "4.4",
+				"carbs": "21.3",
+				"fats": "1.9",
+				"fibre": "2.8"
+			},
+			{
+				"name": "Quinoa Salad",
+				"portion": "Small bowl",
+				"protein": "2.2",
+				"carbs": "9.2",
+				"fats": "4.3",
+				"fibre": "1.8"
+			},
+			{
+				"name": "Quinoa Salad",
+				"portion": "Big bowl",
+				"protein": "5.2",
+				"carbs": "21.4",
+				"fats": "10",
+				"fibre": "4.2"
+			},
+			{
+				"name": "Quinoa Salad",
+				"portion": "Gram",
+				"protein": "2.2",
+				"carbs": "9.2",
+				"fats": "4.3",
+				"fibre": "1.8"
+			},
+			{
+				"name": "Buckwheat Porridge ",
+				"portion": "Small bowl",
+				"protein": "3.6",
+				"carbs": "19.2",
+				"fats": "1.7",
+				"fibre": "2.7"
+			},
+			{
+				"name": "Buckwheat Porridge ",
+				"portion": "Big bowl",
+				"protein": "8.7",
+				"carbs": "46.6",
+				"fats": "4.2",
+				"fibre": "6.6"
+			},
+			{
+				"name": "Buckwheat Porridge ",
+				"portion": "Gram",
+				"protein": "2.6",
+				"carbs": "13.7",
+				"fats": "1.2",
+				"fibre": "1.9"
+			},
+			{
+				"name": "Guava",
+				"portion": "One",
+				"protein": "1.8",
+				"carbs": "10",
+				"fats": "0.7",
+				"fibre": "3.8"
+			},
+			{
+				"name": "Guava",
+				"portion": "Gram",
+				"protein": "2.5",
+				"carbs": "14.3",
+				"fats": "0.9",
+				"fibre": "5.4"
+			},
+			{
+				"name": "Guava Juice",
+				"portion": "Glass",
+				"protein": "3.7",
+				"carbs": "24.5",
+				"fats": "1.4",
+				"fibre": "7.8"
+			},
+			{
+				"name": "Guava Juice",
+				"portion": "ml",
+				"protein": "1.5",
+				"carbs": "9.8",
+				"fats": "0.5",
+				"fibre": "3.1"
+			},
+			{
+				"name": "Parmesan",
+				"portion": "Gram",
+				"protein": "35.8",
+				"carbs": "3.2",
+				"fats": "25.8",
+				"fibre": "0"
+			},
+			{
+				"name": "Edam",
+				"portion": "Gram",
+				"protein": "25",
+				"carbs": "1.4",
+				"fats": "27.8",
+				"fibre": "0"
+			},
+			{
+				"name": "Cheddar",
+				"portion": "Gram",
+				"protein": "24.9",
+				"carbs": "1.3",
+				"fats": "33.1",
+				"fibre": "0"
+			},
+			{
+				"name": "Dal",
+				"portion": "Small bowl",
+				"protein": "8.5",
+				"carbs": "20.8",
+				"fats": "2.3",
+				"fibre": "2.9"
+			},
+			{
+				"name": "Dal",
+				"portion": "Big bowl",
+				"protein": "19.8",
+				"carbs": "48.3",
+				"fats": "5.2",
+				"fibre": "6.8"
+			},
+			{
+				"name": "Dal",
+				"portion": "Gram",
+				"protein": "6.1",
+				"carbs": "14.8",
+				"fats": "1.6",
+				"fibre": "2.1"
+			},
+			{
+				"name": "Daal",
+				"portion": "Small bowl",
+				"protein": "8.5",
+				"carbs": "20.8",
+				"fats": "2.3",
+				"fibre": "2.9"
+			},
+			{
+				"name": "Daal",
+				"portion": "Big bowl",
+				"protein": "19.8",
+				"carbs": "48.3",
+				"fats": "5.2",
+				"fibre": "6.8"
+			},
+			{
+				"name": "Daal",
+				"portion": "Gram",
+				"protein": "6.1",
+				"carbs": "14.8",
+				"fats": "1.6",
+				"fibre": "2.1"
+			},
+			{
+				"name": "Tur dal",
+				"portion": "Small bowl",
+				"protein": "6.9",
+				"carbs": "20.1",
+				"fats": "1.9",
+				"fibre": "3.5"
+			},
+			{
+				"name": "Tur dal",
+				"portion": "Big bowl",
+				"protein": "16.1",
+				"carbs": "46.9",
+				"fats": "4.4",
+				"fibre": "8.2"
+			},
+			{
+				"name": "Tur dal",
+				"portion": "Gram",
+				"protein": "5",
+				"carbs": "14.4",
+				"fats": "1.4",
+				"fibre": "2.5"
+			},
+			{
+				"name": "Toor dal",
+				"portion": "Small bowl",
+				"protein": "6.9",
+				"carbs": "20.1",
+				"fats": "1.9",
+				"fibre": "3.5"
+			},
+			{
+				"name": "Toor dal",
+				"portion": "Big bowl",
+				"protein": "16.1",
+				"carbs": "46.9",
+				"fats": "4.4",
+				"fibre": "8.2"
+			},
+			{
+				"name": "Toor dal",
+				"portion": "Gram",
+				"protein": "5",
+				"carbs": "14.4",
+				"fats": "1.4",
+				"fibre": "2.5"
+			},
+			{
+				"name": "Tur daal",
+				"portion": "Small bowl",
+				"protein": "6.9",
+				"carbs": "20.1",
+				"fats": "1.9",
+				"fibre": "3.5"
+			},
+			{
+				"name": "Tur daal",
+				"portion": "Big bowl",
+				"protein": "16.1",
+				"carbs": "46.9",
+				"fats": "4.4",
+				"fibre": "8.2"
+			},
+			{
+				"name": "Tur daal",
+				"portion": "Gram",
+				"protein": "5",
+				"carbs": "14.4",
+				"fats": "1.4",
+				"fibre": "2.5"
+			},
+			{
+				"name": "Toor daal",
+				"portion": "Small bowl",
+				"protein": "6.9",
+				"carbs": "20.1",
+				"fats": "1.9",
+				"fibre": "3.5"
+			},
+			{
+				"name": "Toor daal",
+				"portion": "Big bowl",
+				"protein": "16.1",
+				"carbs": "46.9",
+				"fats": "4.4",
+				"fibre": "8.2"
+			},
+			{
+				"name": "Toor daal",
+				"portion": "Gram",
+				"protein": "5",
+				"carbs": "14.4",
+				"fats": "1.4",
+				"fibre": "2.5"
+			},
+			{
+				"name": "Dal tadka",
+				"portion": "Small bowl",
+				"protein": "6.9",
+				"carbs": "20.1",
+				"fats": "1.9",
+				"fibre": "3.5"
+			},
+			{
+				"name": "Dal tadka",
+				"portion": "Big bowl",
+				"protein": "16.1",
+				"carbs": "46.9",
+				"fats": "4.4",
+				"fibre": "8.2"
+			},
+			{
+				"name": "Dal tadka",
+				"portion": "Gram",
+				"protein": "5",
+				"carbs": "14.4",
+				"fats": "1.4",
+				"fibre": "2.5"
+			},
+			{
+				"name": "Daal tadka",
+				"portion": "Small bowl",
+				"protein": "6.9",
+				"carbs": "20.1",
+				"fats": "1.9",
+				"fibre": "3.5"
+			},
+			{
+				"name": "Daal tadka",
+				"portion": "Big bowl",
+				"protein": "16.1",
+				"carbs": "46.9",
+				"fats": "4.4",
+				"fibre": "8.2"
+			},
+			{
+				"name": "Daal tadka",
+				"portion": "Gram",
+				"protein": "5",
+				"carbs": "14.4",
+				"fats": "1.4",
+				"fibre": "2.5"
+			},
+			{
+				"name": "Kali Udad dal",
+				"portion": "Small bowl",
+				"protein": "8.3",
+				"carbs": "21.1",
+				"fats": "3.8",
+				"fibre": "4.2"
+			},
+			{
+				"name": "Kali Udad dal",
+				"portion": "Big bowl",
+				"protein": "19.3",
+				"carbs": "49",
+				"fats": "8.8",
+				"fibre": "9.8"
+			},
+			{
+				"name": "Kali Udad dal",
+				"portion": "Gram",
+				"protein": "5.9",
+				"carbs": "15",
+				"fats": "2.7",
+				"fibre": "3"
+			},
+			{
+				"name": "Kali Udad daal",
+				"portion": "Small bowl",
+				"protein": "8.3",
+				"carbs": "21.1",
+				"fats": "3.8",
+				"fibre": "4.2"
+			},
+			{
+				"name": "Kali Udad daal",
+				"portion": "Big bowl",
+				"protein": "19.3",
+				"carbs": "49",
+				"fats": "8.8",
+				"fibre": "9.8"
+			},
+			{
+				"name": "Kali Udad daal",
+				"portion": "Gram",
+				"protein": "5.9",
+				"carbs": "15",
+				"fats": "2.7",
+				"fibre": "3"
+			},
+			{
+				"name": "Moong dal",
+				"portion": "Small bowl",
+				"protein": "8.5",
+				"carbs": "20.8",
+				"fats": "2.3",
+				"fibre": "2.9"
+			},
+			{
+				"name": "Moong dal",
+				"portion": "Big bowl",
+				"protein": "19.8",
+				"carbs": "48.3",
+				"fats": "5.2",
+				"fibre": "6.8"
+			},
+			{
+				"name": "Moong dal",
+				"portion": "Gram",
+				"protein": "6.1",
+				"carbs": "14.8",
+				"fats": "1.6",
+				"fibre": "2.1"
+			},
+			{
+				"name": "Moong daal",
+				"portion": "Small bowl",
+				"protein": "8.5",
+				"carbs": "20.8",
+				"fats": "2.3",
+				"fibre": "2.9"
+			},
+			{
+				"name": "Moong daal",
+				"portion": "Big bowl",
+				"protein": "19.8",
+				"carbs": "48.3",
+				"fats": "5.2",
+				"fibre": "6.8"
+			},
+			{
+				"name": "Moong daal",
+				"portion": "Gram",
+				"protein": "6.1",
+				"carbs": "14.8",
+				"fats": "1.6",
+				"fibre": "2.1"
+			},
+			{
+				"name": "Masoor dal ",
+				"portion": "Small bowl",
+				"protein": "7.7",
+				"carbs": "18.4",
+				"fats": "2.1",
+				"fibre": "3.6"
+			},
+			{
+				"name": "Masoor dal ",
+				"portion": "Big bowl",
+				"protein": "17.9",
+				"carbs": "42.8",
+				"fats": "4.9",
+				"fibre": "8.4"
+			},
+			{
+				"name": "Masoor dal ",
+				"portion": "Gram",
+				"protein": "5.5",
+				"carbs": "13.1",
+				"fats": "1.5",
+				"fibre": "2.6"
+			},
+			{
+				"name": "Masoor daal ",
+				"portion": "Small bowl",
+				"protein": "7.7",
+				"carbs": "18.4",
+				"fats": "2.1",
+				"fibre": "3.6"
+			},
+			{
+				"name": "Masoor daal ",
+				"portion": "Big bowl",
+				"protein": "17.9",
+				"carbs": "42.8",
+				"fats": "4.9",
+				"fibre": "8.4"
+			},
+			{
+				"name": "Masoor daal ",
+				"portion": "Gram",
+				"protein": "5.5",
+				"carbs": "13.1",
+				"fats": "1.5",
+				"fibre": "2.6"
+			}
+		],
+		"eggitarian": [
+			{
+				"name": "Poached egg",
+				"portion": "One",
+				"protein": "6.3",
+				"carbs": "0.4",
+				"fats": "4.7",
+				"fibre": "0"
+			},
+			{
+				"name": "Poached egg",
+				"portion": "Gram",
+				"protein": "12.5",
+				"carbs": "0.7",
+				"fats": "9.5",
+				"fibre": "0"
+			},
+			{
+				"name": "Boiled egg",
+				"portion": "One",
+				"protein": "6.7",
+				"carbs": "1",
+				"fats": "6.7",
+				"fibre": "0"
+			},
+			{
+				"name": "Boiled egg",
+				"portion": "Gram",
+				"protein": "13.3",
+				"carbs": "2",
+				"fats": "13.3",
+				"fibre": "0"
+			},
+			{
+				"name": "Egg bhurji",
+				"portion": "One",
+				"protein": "7.6",
+				"carbs": "4.8",
+				"fats": "11.9",
+				"fibre": "1.3"
+			},
+			{
+				"name": "Egg bhurji",
+				"portion": "Gram",
+				"protein": "8.4",
+				"carbs": "5.3",
+				"fats": "13.2",
+				"fibre": "1.4"
+			},
+			{
+				"name": "Omlette",
+				"portion": "One",
+				"protein": "6",
+				"carbs": "2.5",
+				"fats": "8.1",
+				"fibre": "0.4"
+			},
+			{
+				"name": "Omlette",
+				"portion": "Gram",
+				"protein": "9.8",
+				"carbs": "4",
+				"fats": "13.1",
+				"fibre": "0.6"
+			},
+			{
+				"name": "Sunny side up eggs",
+				"portion": "One",
+				"protein": "6.7",
+				"carbs": "1",
+				"fats": "11.2",
+				"fibre": "0"
+			},
+			{
+				"name": "Sunny side up eggs",
+				"portion": "Gram",
+				"protein": "12.2",
+				"carbs": "1.8",
+				"fats": "20.5",
+				"fibre": "0"
+			},
+			{
+				"name": "Full fry eggs",
+				"portion": "One",
+				"protein": "6.8",
+				"carbs": "1.5",
+				"fats": "8.7",
+				"fibre": "0.4"
+			},
+			{
+				"name": "Full fry eggs",
+				"portion": "Gram",
+				"protein": "12.5",
+				"carbs": "2.8",
+				"fats": "16",
+				"fibre": "0.7"
+			},
+			{
+				"name": "Half fry eggs",
+				"portion": "One",
+				"protein": "6.7",
+				"carbs": "1",
+				"fats": "11.2",
+				"fibre": "0"
+			},
+			{
+				"name": "Half fry eggs",
+				"portion": "Gram",
+				"protein": "12.2",
+				"carbs": "1.8",
+				"fats": "20.5",
+				"fibre": "0"
+			},
+			{
+				"name": "Pistachios",
+				"portion": "Teacup",
+				"protein": "24.4",
+				"carbs": "19.9",
+				"fats": "65.8",
+				"fibre": "12.7"
+			},
+			{
+				"name": "Pistachios",
+				"portion": "Gram",
+				"protein": "19.8",
+				"carbs": "16.2",
+				"fats": "53.5",
+				"fibre": "10.3"
+			},
+			{
+				"name": "Baked Tempeh",
+				"portion": "One",
+				"protein": "3.7",
+				"carbs": "1.5",
+				"fats": "2.8",
+				"fibre": "0"
+			},
+			{
+				"name": "Baked Tempeh",
+				"portion": "Gram",
+				"protein": "18.5",
+				"carbs": "7.3",
+				"fats": "14",
+				"fibre": "0.1"
+			},
+			{
+				"name": "Walnuts",
+				"portion": "Gram",
+				"protein": "15.6",
+				"carbs": "11",
+				"fats": "64.5",
+				"fibre": "6.7"
+			},
+			{
+				"name": "Kidney Beans",
+				"portion": "Gram",
+				"protein": "22.9",
+				"carbs": "60.9",
+				"fats": "1.3",
+				"fibre": "24.9"
+			},
+			{
+				"name": "Kidney Beans",
+				"portion": "Small bowl",
+				"protein": "42.1",
+				"carbs": "111.5",
+				"fats": "2.4",
+				"fibre": "45.8"
+			},
+			{
+				"name": "Kidney Beans Curry",
+				"portion": "Big bowl",
+				"protein": "13.6",
+				"carbs": "39.9",
+				"fats": "6.5",
+				"fibre": "16"
+			},
+			{
+				"name": "Kidney Beans Curry",
+				"portion": "Gram",
+				"protein": "3.9",
+				"carbs": "11.4",
+				"fats": "1.9",
+				"fibre": "4.6"
+			},
+			{
+				"name": "Kidney Bean Salad",
+				"portion": "Small bowl",
+				"protein": "8.1",
+				"carbs": "22.5",
+				"fats": "0.5",
+				"fibre": "6.2"
+			},
+			{
+				"name": "Kidney Bean Salad",
+				"portion": "Big bowl",
+				"protein": "19",
+				"carbs": "52.5",
+				"fats": "1.3",
+				"fibre": "14.4"
+			},
+			{
+				"name": "Kidney Bean Salad",
+				"portion": "Gram",
+				"protein": "5.4",
+				"carbs": "15",
+				"fats": "0.4",
+				"fibre": "4.1"
+			},
+			{
+				"name": "Kidney Beans Nachos",
+				"portion": "Gram",
+				"protein": "5.6",
+				"carbs": "17.8",
+				"fats": "3.6",
+				"fibre": "3.3"
+			},
+			{
+				"name": "Kidney Beans Nachos",
+				"portion": "Small bowl",
+				"protein": "13.4",
+				"carbs": "42.8",
+				"fats": "8.7",
+				"fibre": "7.9"
+			},
+			{
+				"name": "Kidney Beans Boiled",
+				"portion": "Small bowl",
+				"protein": "9.2",
+				"carbs": "24.2",
+				"fats": "0.5",
+				"fibre": "6.8"
+			},
+			{
+				"name": "Kidney Beans Boiled",
+				"portion": "Big bowl",
+				"protein": "21.5",
+				"carbs": "56.5",
+				"fats": "1.2",
+				"fibre": "15.9"
+			},
+			{
+				"name": "Kidney Beans Boiled",
+				"portion": "Gram",
+				"protein": "8.7",
+				"carbs": "22.8",
+				"fats": "0.5",
+				"fibre": "6.4"
+			},
+			{
+				"name": "Kidney Beans Soup",
+				"portion": "Small bowl",
+				"protein": "3.7",
+				"carbs": "11.6",
+				"fats": "1.3",
+				"fibre": "4.4"
+			},
+			{
+				"name": "Kidney Beans Soup",
+				"portion": "Big bowl",
+				"protein": "8.7",
+				"carbs": "26.9",
+				"fats": "3.1",
+				"fibre": "10.3"
+			},
+			{
+				"name": "Sunflower Seeds",
+				"portion": "Gram",
+				"protein": "19.8",
+				"carbs": "17.9",
+				"fats": "52.1",
+				"fibre": "8.6"
+			},
+			{
+				"name": "Sunflower Seeds",
+				"portion": "Small bowl",
+				"protein": "27.7",
+				"carbs": "25.1",
+				"fats": "72.9",
+				"fibre": "12"
+			},
+			{
+				"name": "Roasted Peanuts",
+				"portion": "Gram",
+				"protein": "26.2",
+				"carbs": "26.7",
+				"fats": "39.8",
+				"fibre": "11"
+			},
+			{
+				"name": "Roasted Peanuts",
+				"portion": "Small bowl",
+				"protein": "38.3",
+				"carbs": "39",
+				"fats": "58.1",
+				"fibre": "16.1"
+			},
+			{
+				"name": "Soy Meat",
+				"portion": "Small bowl",
+				"protein": "23.4",
+				"carbs": "14.9",
+				"fats": "0.2",
+				"fibre": "5.9"
+			},
+			{
+				"name": "Soy Meat",
+				"portion": "Gram",
+				"protein": "52",
+				"carbs": "33",
+				"fats": "0.5",
+				"fibre": "13"
+			},
+			{
+				"name": "Soy Milk",
+				"portion": "Glass",
+				"protein": "6.5",
+				"carbs": "12.6",
+				"fats": "3.5",
+				"fibre": "0"
+			},
+			{
+				"name": "Soy Milk",
+				"portion": "ml",
+				"protein": "3.3",
+				"carbs": "6.3",
+				"fats": "1.8",
+				"fibre": "0"
+			},
+			{
+				"name": "Soy Paneer",
+				"portion": "Gram",
+				"protein": "8.1",
+				"carbs": "1.9",
+				"fats": "4.8",
+				"fibre": "0.3"
+			},
+			{
+				"name": "Soy Paneer",
+				"portion": "Small bowl",
+				"protein": "20",
+				"carbs": "4.6",
+				"fats": "11.9",
+				"fibre": "0.8"
+			},
+			{
+				"name": "Soya Chaap",
+				"portion": "Small bowl",
+				"protein": "26.6",
+				"carbs": "20.4",
+				"fats": "2.9",
+				"fibre": "7.8"
+			},
+			{
+				"name": "Soya Chaap",
+				"portion": "Big bowl",
+				"protein": "62.1",
+				"carbs": "47.7",
+				"fats": "6.6",
+				"fibre": "18.2"
+			},
+			{
+				"name": "Soya Chaap",
+				"portion": "Gram",
+				"protein": "17.8",
+				"carbs": "13.6",
+				"fats": "1.9",
+				"fibre": "5.2"
+			},
+			{
+				"name": "Soy Nuts",
+				"portion": "Small bowl",
+				"protein": "68",
+				"carbs": "56",
+				"fats": "37",
+				"fibre": "14"
+			},
+			{
+				"name": "Soy Nuts",
+				"portion": "Gram",
+				"protein": "39.5",
+				"carbs": "32.6",
+				"fats": "21.5",
+				"fibre": "8.1"
+			},
+			{
+				"name": "Soy Sticks",
+				"portion": "Small bowl",
+				"protein": "12.2",
+				"carbs": "3.6",
+				"fats": "7.2",
+				"fibre": "1.1"
+			},
+			{
+				"name": "Soy Sticks",
+				"portion": "Gram",
+				"protein": "8.1",
+				"carbs": "2.4",
+				"fats": "4.8",
+				"fibre": "0.7"
+			},
+			{
+				"name": "Soy Bread",
+				"portion": "One",
+				"protein": "3.3",
+				"carbs": "11.7",
+				"fats": "1",
+				"fibre": "0.9"
+			},
+			{
+				"name": "Soy Bread",
+				"portion": "Gram",
+				"protein": "13",
+				"carbs": "45.4",
+				"fats": "3.9",
+				"fibre": "3.5"
+			},
+			{
+				"name": "Soy Cappuccino",
+				"portion": "ml",
+				"protein": "3.3",
+				"carbs": "7.6",
+				"fats": "1.7",
+				"fibre": "0"
+			},
+			{
+				"name": "Soy Cappuccino",
+				"portion": "Glass",
+				"protein": "8.2",
+				"carbs": "19.1",
+				"fats": "4.3",
+				"fibre": "0"
+			},
+			{
+				"name": "Soya Chunks",
+				"portion": "Gram",
+				"protein": "52",
+				"carbs": "33",
+				"fats": "0.5",
+				"fibre": "13"
+			},
+			{
+				"name": "Soya Chunks",
+				"portion": "Small bowl",
+				"protein": "23.4",
+				"carbs": "14.9",
+				"fats": "0.2",
+				"fibre": "5.9"
+			},
+			{
+				"name": "Soya Bean",
+				"portion": "Small bowl",
+				"protein": "80.4",
+				"carbs": "38.9",
+				"fats": "36.3",
+				"fibre": "42.8"
+			},
+			{
+				"name": "Soya Bean",
+				"portion": "Gram",
+				"protein": "43.2",
+				"carbs": "20.9",
+				"fats": "19.5",
+				"fibre": "23"
+			},
+			{
+				"name": "Soya Bhurji",
+				"portion": "Gram",
+				"protein": "7.8",
+				"carbs": "9.5",
+				"fats": "4.4",
+				"fibre": "3.4"
+			},
+			{
+				"name": "Soya Bhurji",
+				"portion": "Big bowl",
+				"protein": "18",
+				"carbs": "22.2",
+				"fats": "10.3",
+				"fibre": "7.8"
+			},
+			{
+				"name": "Green Moong Cheela",
+				"portion": "One",
+				"protein": "6",
+				"carbs": "16.1",
+				"fats": "4.9",
+				"fibre": "2.3"
+			},
+			{
+				"name": "Green Moong Cheela",
+				"portion": "Gram",
+				"protein": "7.5",
+				"carbs": "20.2",
+				"fats": "6.1",
+				"fibre": "2.8"
+			},
+			{
+				"name": "Pumpkin Seeds",
+				"portion": "Gram",
+				"protein": "24.3",
+				"carbs": "15.6",
+				"fats": "47.2",
+				"fibre": "3.3"
+			},
+			{
+				"name": "Greek Yogurt",
+				"portion": "Small bowl",
+				"protein": "5.1",
+				"carbs": "7",
+				"fats": "5.7",
+				"fibre": "0"
+			},
+			{
+				"name": "Greek Yogurt",
+				"portion": "Big bowl",
+				"protein": "11.9",
+				"carbs": "16.2",
+				"fats": "13.3",
+				"fibre": "0"
+			},
+			{
+				"name": "Greek Yogurt",
+				"portion": "Gram",
+				"protein": "3.4",
+				"carbs": "4.6",
+				"fats": "3.8",
+				"fibre": "0"
+			},
+			{
+				"name": "Quinoa Chickpea Salad ",
+				"portion": "Small bowl",
+				"protein": "2.9",
+				"carbs": "12",
+				"fats": "0.9",
+				"fibre": "4.5"
+			},
+			{
+				"name": "Quinoa Chickpea Salad ",
+				"portion": "Big bowl",
+				"protein": "6.9",
+				"carbs": "28",
+				"fats": "2.2",
+				"fibre": "10.5"
+			},
+			{
+				"name": "Quinoa Chickpea Salad ",
+				"portion": "Gram",
+				"protein": "3.5",
+				"carbs": "14.4",
+				"fats": "1.1",
+				"fibre": "5.4"
+			},
+			{
+				"name": "Palak Paneer ",
+				"portion": "Small bowl",
+				"protein": "6",
+				"carbs": "6.1",
+				"fats": "14.3",
+				"fibre": "2.1"
+			},
+			{
+				"name": "Palak Paneer ",
+				"portion": "Big bowl",
+				"protein": "13.9",
+				"carbs": "14.3",
+				"fats": "33.4",
+				"fibre": "4.8"
+			},
+			{
+				"name": "Palak Paneer ",
+				"portion": "Gram",
+				"protein": "4",
+				"carbs": "4.1",
+				"fats": "9.5",
+				"fibre": "1.4"
+			},
+			{
+				"name": "Matar Paneer ",
+				"portion": "Small bowl",
+				"protein": "6.2",
+				"carbs": "11",
+				"fats": "7.8",
+				"fibre": "4.6"
+			},
+			{
+				"name": "Matar Paneer ",
+				"portion": "Big bowl",
+				"protein": "14.4",
+				"carbs": "25.7",
+				"fats": "18.2",
+				"fibre": "10.7"
+			},
+			{
+				"name": "Matar Paneer ",
+				"portion": "Gram",
+				"protein": "4.1",
+				"carbs": "7.3",
+				"fats": "5.2",
+				"fibre": "3.1"
+			},
+			{
+				"name": "Paneer Paratha ",
+				"portion": "One",
+				"protein": "10.1",
+				"carbs": "15.9",
+				"fats": "13.6",
+				"fibre": "2.4"
+			},
+			{
+				"name": "Paneer Paratha ",
+				"portion": "Gram",
+				"protein": "12.6",
+				"carbs": "19.8",
+				"fats": "17.1",
+				"fibre": "3"
+			},
+			{
+				"name": "Quinoa Salad ",
+				"portion": "Small bowl",
+				"protein": "2.2",
+				"carbs": "9.2",
+				"fats": "4.3",
+				"fibre": "1.8"
+			},
+			{
+				"name": "Quinoa Salad ",
+				"portion": "Big bowl",
+				"protein": "5.2",
+				"carbs": "21.4",
+				"fats": "10",
+				"fibre": "4.2"
+			},
+			{
+				"name": "Quinoa Salad ",
+				"portion": "Gram",
+				"protein": "2.2",
+				"carbs": "9.2",
+				"fats": "4.3",
+				"fibre": "1.8"
+			},
+			{
+				"name": "Stir Fried Vegetables With Tofu",
+				"portion": "Small bowl",
+				"protein": "5.3",
+				"carbs": "2.8",
+				"fats": "4.3",
+				"fibre": "0.6"
+			},
+			{
+				"name": "Stir Fried Vegetables With Tofu",
+				"portion": "Big bowl",
+				"protein": "12.2",
+				"carbs": "6.5",
+				"fats": "9.9",
+				"fibre": "1.4"
+			},
+			{
+				"name": "Stir Fried Vegetables With Tofu",
+				"portion": "Gram",
+				"protein": "5.3",
+				"carbs": "2.8",
+				"fats": "4.3",
+				"fibre": "0.6"
+			},
+			{
+				"name": "Soya Moong (Mung) Dal Khichadi ",
+				"portion": "Small bowl",
+				"protein": "3.8",
+				"carbs": "10.5",
+				"fats": "2",
+				"fibre": "1.5"
+			},
+			{
+				"name": "Soya Moong (Mung) Dal Khichadi ",
+				"portion": "Big bowl",
+				"protein": "8.8",
+				"carbs": "24.4",
+				"fats": "4.6",
+				"fibre": "3.4"
+			},
+			{
+				"name": "Soya Moong (Mung) Dal Khichadi ",
+				"portion": "Gram",
+				"protein": "3.8",
+				"carbs": "10.5",
+				"fats": "2",
+				"fibre": "1.5"
+			},
+			{
+				"name": "Black Bean Burrito ",
+				"portion": "One",
+				"protein": "10.8",
+				"carbs": "31.1",
+				"fats": "5.6",
+				"fibre": "6.2"
+			},
+			{
+				"name": "Black Bean Burrito ",
+				"portion": "Gram",
+				"protein": "5.8",
+				"carbs": "16.6",
+				"fats": "3",
+				"fibre": "3.3"
+			},
+			{
+				"name": "Black Bean Salad ",
+				"portion": "Big bowl",
+				"protein": "6.6",
+				"carbs": "18.7",
+				"fats": "4.4",
+				"fibre": "6.5"
+			},
+			{
+				"name": "Black Bean Salad ",
+				"portion": "Gram",
+				"protein": "3.4",
+				"carbs": "9.6",
+				"fats": "2.3",
+				"fibre": "3.3"
+			},
+			{
+				"name": "Paneer Tikka ",
+				"portion": "One",
+				"protein": "4.2",
+				"carbs": "2.7",
+				"fats": "5.8",
+				"fibre": "0.6"
+			},
+			{
+				"name": "Paneer Tikka ",
+				"portion": "Gram",
+				"protein": "10.8",
+				"carbs": "7",
+				"fats": "15",
+				"fibre": "1.5"
+			},
+			{
+				"name": "Protein Bar",
+				"portion": "One",
+				"protein": "4.8",
+				"carbs": "16",
+				"fats": "11.2",
+				"fibre": "3.8"
+			},
+			{
+				"name": "Protein Bar",
+				"portion": "Gram",
+				"protein": "12.5",
+				"carbs": "42.2",
+				"fats": "29.5",
+				"fibre": "10.1"
+			},
+			{
+				"name": "Coconut Water",
+				"portion": "glass",
+				"protein": "3.5",
+				"carbs": "11",
+				"fats": "0.2",
+				"fibre": "2.8"
+			},
+			{
+				"name": "Coconut Water",
+				"portion": "ml",
+				"protein": "1.4",
+				"carbs": "4.4",
+				"fats": "0.1",
+				"fibre": "1.1"
+			},
+			{
+				"name": "Soya Upma",
+				"portion": "Small bowl",
+				"protein": "7.2",
+				"carbs": "10.5",
+				"fats": "2",
+				"fibre": "3.6"
+			},
+			{
+				"name": "Soya Upma",
+				"portion": "Gram",
+				"protein": "5.5",
+				"carbs": "8.1",
+				"fats": "1.5",
+				"fibre": "2.8"
+			},
+			{
+				"name": "Chickpea Curry",
+				"portion": "Small bowl",
+				"protein": "3.3",
+				"carbs": "13.4",
+				"fats": "8.1",
+				"fibre": "5.8"
+			},
+			{
+				"name": "Chickpea Curry",
+				"portion": "Big bowl",
+				"protein": "7.7",
+				"carbs": "31.2",
+				"fats": "18.8",
+				"fibre": "13.4"
+			},
+			{
+				"name": "Chickpea Curry",
+				"portion": "Gram",
+				"protein": "2.2",
+				"carbs": "8.9",
+				"fats": "5.4",
+				"fibre": "3.8"
+			},
+			{
+				"name": "Steamed Chickpea ",
+				"portion": "Small bowl",
+				"protein": "7.6",
+				"carbs": "27.2",
+				"fats": "2.4",
+				"fibre": "12.6"
+			},
+			{
+				"name": "Steamed Chickpea ",
+				"portion": "Big bowl",
+				"protein": "17.9",
+				"carbs": "63.8",
+				"fats": "5.6",
+				"fibre": "29.7"
+			},
+			{
+				"name": "Steamed Chickpea ",
+				"portion": "Gram",
+				"protein": "7.8",
+				"carbs": "27.7",
+				"fats": "2.4",
+				"fibre": "12.9"
+			},
+			{
+				"name": "Paneer Shawarma",
+				"portion": "One",
+				"protein": "21.6",
+				"carbs": "28.8",
+				"fats": "33.5",
+				"fibre": "5.6"
+			},
+			{
+				"name": "Paneer Shawarma",
+				"portion": "Gram",
+				"protein": "9",
+				"carbs": "12",
+				"fats": "14",
+				"fibre": "2.3"
+			},
+			{
+				"name": "Chia Seeds",
+				"portion": "Gram",
+				"protein": "16.5",
+				"carbs": "42.1",
+				"fats": "30.7",
+				"fibre": "34.4"
+			},
+			{
+				"name": "Chia Seeds Sharbat ",
+				"portion": "Glass",
+				"protein": "1.2",
+				"carbs": "17",
+				"fats": "2.1",
+				"fibre": "2.4"
+			},
+			{
+				"name": "Chia Seeds Sharbat ",
+				"portion": "ml",
+				"protein": "0.5",
+				"carbs": "6.8",
+				"fats": "0.9",
+				"fibre": "1"
+			},
+			{
+				"name": "Milk",
+				"portion": "Glass",
+				"protein": "8",
+				"carbs": "11",
+				"fats": "10.2",
+				"fibre": "0"
+			},
+			{
+				"name": "Milk",
+				"portion": "ml",
+				"protein": "3.3",
+				"carbs": "4.5",
+				"fats": "4.2",
+				"fibre": "0"
+			},
+			{
+				"name": "Soy Milk ",
+				"portion": "ml",
+				"protein": "6.5",
+				"carbs": "12.6",
+				"fats": "3.5",
+				"fibre": "0"
+			},
+			{
+				"name": "Steamed Broccoli",
+				"portion": "Gram",
+				"protein": "2.4",
+				"carbs": "7.1",
+				"fats": "0.4",
+				"fibre": "3.3"
+			},
+			{
+				"name": "Broccoli Soup ",
+				"portion": "Small bowl",
+				"protein": "4.4",
+				"carbs": "9.6",
+				"fats": "6.2",
+				"fibre": "1.4"
+			},
+			{
+				"name": "Broccoli Soup ",
+				"portion": "Big bowl",
+				"protein": "10.2",
+				"carbs": "22.4",
+				"fats": "14.4",
+				"fibre": "3.2"
+			},
+			{
+				"name": "Broccoli Soup ",
+				"portion": "Gram",
+				"protein": "2.9",
+				"carbs": "6.4",
+				"fats": "4.1",
+				"fibre": "0.9"
+			},
+			{
+				"name": "Avocado",
+				"portion": "One",
+				"protein": "3.4",
+				"carbs": "1.6",
+				"fats": "45.8",
+				"fibre": "13.5"
+			},
+			{
+				"name": "Avocado",
+				"portion": "Gram",
+				"protein": "1.7",
+				"carbs": "0.8",
+				"fats": "22.8",
+				"fibre": "6.7"
+			},
+			{
+				"name": "Avocado Toast ",
+				"portion": "One",
+				"protein": "2.6",
+				"carbs": "16",
+				"fats": "9.2",
+				"fibre": "4.1"
+			},
+			{
+				"name": "Avocado Toast ",
+				"portion": "Gram",
+				"protein": "3",
+				"carbs": "18.9",
+				"fats": "10.9",
+				"fibre": "4.9"
+			},
+			{
+				"name": "Avocado Smoothie",
+				"portion": "One",
+				"protein": "6.6",
+				"carbs": "14",
+				"fats": "24.6",
+				"fibre": "5.2"
+			},
+			{
+				"name": "Avocado Smoothie",
+				"portion": "ml",
+				"protein": "2.7",
+				"carbs": "5.6",
+				"fats": "9.8",
+				"fibre": "2.1"
+			},
+			{
+				"name": "Boiled Quinoa",
+				"portion": "Gram",
+				"protein": "4.4",
+				"carbs": "21.3",
+				"fats": "1.9",
+				"fibre": "2.8"
+			},
+			{
+				"name": "Quinoa Salad",
+				"portion": "Small bowl",
+				"protein": "2.2",
+				"carbs": "9.2",
+				"fats": "4.3",
+				"fibre": "1.8"
+			},
+			{
+				"name": "Quinoa Salad",
+				"portion": "Big bowl",
+				"protein": "5.2",
+				"carbs": "21.4",
+				"fats": "10",
+				"fibre": "4.2"
+			},
+			{
+				"name": "Quinoa Salad",
+				"portion": "Gram",
+				"protein": "2.2",
+				"carbs": "9.2",
+				"fats": "4.3",
+				"fibre": "1.8"
+			},
+			{
+				"name": "Buckwheat Porridge ",
+				"portion": "Small bowl",
+				"protein": "3.6",
+				"carbs": "19.2",
+				"fats": "1.7",
+				"fibre": "2.7"
+			},
+			{
+				"name": "Buckwheat Porridge ",
+				"portion": "Big bowl",
+				"protein": "8.7",
+				"carbs": "46.6",
+				"fats": "4.2",
+				"fibre": "6.6"
+			},
+			{
+				"name": "Buckwheat Porridge ",
+				"portion": "Gram",
+				"protein": "2.6",
+				"carbs": "13.7",
+				"fats": "1.2",
+				"fibre": "1.9"
+			},
+			{
+				"name": "Guava",
+				"portion": "One",
+				"protein": "1.8",
+				"carbs": "10",
+				"fats": "0.7",
+				"fibre": "3.8"
+			},
+			{
+				"name": "Guava",
+				"portion": "Gram",
+				"protein": "2.5",
+				"carbs": "14.3",
+				"fats": "0.9",
+				"fibre": "5.4"
+			},
+			{
+				"name": "Guava Juice",
+				"portion": "Glass",
+				"protein": "3.7",
+				"carbs": "24.5",
+				"fats": "1.4",
+				"fibre": "7.8"
+			},
+			{
+				"name": "Guava Juice",
+				"portion": "ml",
+				"protein": "1.5",
+				"carbs": "9.8",
+				"fats": "0.5",
+				"fibre": "3.1"
+			},
+			{
+				"name": "Parmesan",
+				"portion": "Gram",
+				"protein": "35.8",
+				"carbs": "3.2",
+				"fats": "25.8",
+				"fibre": "0"
+			},
+			{
+				"name": "Edam",
+				"portion": "Gram",
+				"protein": "25",
+				"carbs": "1.4",
+				"fats": "27.8",
+				"fibre": "0"
+			},
+			{
+				"name": "Cheddar",
+				"portion": "Gram",
+				"protein": "24.9",
+				"carbs": "1.3",
+				"fats": "33.1",
+				"fibre": "0"
+			},
+			{
+				"name": "Dal",
+				"portion": "Small bowl",
+				"protein": "8.5",
+				"carbs": "20.8",
+				"fats": "2.3",
+				"fibre": "2.9"
+			},
+			{
+				"name": "Dal",
+				"portion": "Big bowl",
+				"protein": "19.8",
+				"carbs": "48.3",
+				"fats": "5.2",
+				"fibre": "6.8"
+			},
+			{
+				"name": "Dal",
+				"portion": "Gram",
+				"protein": "6.1",
+				"carbs": "14.8",
+				"fats": "1.6",
+				"fibre": "2.1"
+			},
+			{
+				"name": "Daal",
+				"portion": "Small bowl",
+				"protein": "8.5",
+				"carbs": "20.8",
+				"fats": "2.3",
+				"fibre": "2.9"
+			},
+			{
+				"name": "Daal",
+				"portion": "Big bowl",
+				"protein": "19.8",
+				"carbs": "48.3",
+				"fats": "5.2",
+				"fibre": "6.8"
+			},
+			{
+				"name": "Daal",
+				"portion": "Gram",
+				"protein": "6.1",
+				"carbs": "14.8",
+				"fats": "1.6",
+				"fibre": "2.1"
+			},
+			{
+				"name": "Tur dal",
+				"portion": "Small bowl",
+				"protein": "6.9",
+				"carbs": "20.1",
+				"fats": "1.9",
+				"fibre": "3.5"
+			},
+			{
+				"name": "Tur dal",
+				"portion": "Big bowl",
+				"protein": "16.1",
+				"carbs": "46.9",
+				"fats": "4.4",
+				"fibre": "8.2"
+			},
+			{
+				"name": "Tur dal",
+				"portion": "Gram",
+				"protein": "5",
+				"carbs": "14.4",
+				"fats": "1.4",
+				"fibre": "2.5"
+			},
+			{
+				"name": "Toor dal",
+				"portion": "Small bowl",
+				"protein": "6.9",
+				"carbs": "20.1",
+				"fats": "1.9",
+				"fibre": "3.5"
+			},
+			{
+				"name": "Toor dal",
+				"portion": "Big bowl",
+				"protein": "16.1",
+				"carbs": "46.9",
+				"fats": "4.4",
+				"fibre": "8.2"
+			},
+			{
+				"name": "Toor dal",
+				"portion": "Gram",
+				"protein": "5",
+				"carbs": "14.4",
+				"fats": "1.4",
+				"fibre": "2.5"
+			},
+			{
+				"name": "Tur daal",
+				"portion": "Small bowl",
+				"protein": "6.9",
+				"carbs": "20.1",
+				"fats": "1.9",
+				"fibre": "3.5"
+			},
+			{
+				"name": "Tur daal",
+				"portion": "Big bowl",
+				"protein": "16.1",
+				"carbs": "46.9",
+				"fats": "4.4",
+				"fibre": "8.2"
+			},
+			{
+				"name": "Tur daal",
+				"portion": "Gram",
+				"protein": "5",
+				"carbs": "14.4",
+				"fats": "1.4",
+				"fibre": "2.5"
+			},
+			{
+				"name": "Toor daal",
+				"portion": "Small bowl",
+				"protein": "6.9",
+				"carbs": "20.1",
+				"fats": "1.9",
+				"fibre": "3.5"
+			},
+			{
+				"name": "Toor daal",
+				"portion": "Big bowl",
+				"protein": "16.1",
+				"carbs": "46.9",
+				"fats": "4.4",
+				"fibre": "8.2"
+			},
+			{
+				"name": "Toor daal",
+				"portion": "Gram",
+				"protein": "5",
+				"carbs": "14.4",
+				"fats": "1.4",
+				"fibre": "2.5"
+			},
+			{
+				"name": "Dal tadka",
+				"portion": "Small bowl",
+				"protein": "6.9",
+				"carbs": "20.1",
+				"fats": "1.9",
+				"fibre": "3.5"
+			},
+			{
+				"name": "Dal tadka",
+				"portion": "Big bowl",
+				"protein": "16.1",
+				"carbs": "46.9",
+				"fats": "4.4",
+				"fibre": "8.2"
+			},
+			{
+				"name": "Dal tadka",
+				"portion": "Gram",
+				"protein": "5",
+				"carbs": "14.4",
+				"fats": "1.4",
+				"fibre": "2.5"
+			},
+			{
+				"name": "Daal tadka",
+				"portion": "Small bowl",
+				"protein": "6.9",
+				"carbs": "20.1",
+				"fats": "1.9",
+				"fibre": "3.5"
+			},
+			{
+				"name": "Daal tadka",
+				"portion": "Big bowl",
+				"protein": "16.1",
+				"carbs": "46.9",
+				"fats": "4.4",
+				"fibre": "8.2"
+			},
+			{
+				"name": "Daal tadka",
+				"portion": "Gram",
+				"protein": "5",
+				"carbs": "14.4",
+				"fats": "1.4",
+				"fibre": "2.5"
+			},
+			{
+				"name": "Kali Udad dal",
+				"portion": "Small bowl",
+				"protein": "8.3",
+				"carbs": "21.1",
+				"fats": "3.8",
+				"fibre": "4.2"
+			},
+			{
+				"name": "Kali Udad dal",
+				"portion": "Big bowl",
+				"protein": "19.3",
+				"carbs": "49",
+				"fats": "8.8",
+				"fibre": "9.8"
+			},
+			{
+				"name": "Kali Udad dal",
+				"portion": "Gram",
+				"protein": "5.9",
+				"carbs": "15",
+				"fats": "2.7",
+				"fibre": "3"
+			},
+			{
+				"name": "Kali Udad daal",
+				"portion": "Small bowl",
+				"protein": "8.3",
+				"carbs": "21.1",
+				"fats": "3.8",
+				"fibre": "4.2"
+			},
+			{
+				"name": "Kali Udad daal",
+				"portion": "Big bowl",
+				"protein": "19.3",
+				"carbs": "49",
+				"fats": "8.8",
+				"fibre": "9.8"
+			},
+			{
+				"name": "Kali Udad daal",
+				"portion": "Gram",
+				"protein": "5.9",
+				"carbs": "15",
+				"fats": "2.7",
+				"fibre": "3"
+			},
+			{
+				"name": "Moong dal",
+				"portion": "Small bowl",
+				"protein": "8.5",
+				"carbs": "20.8",
+				"fats": "2.3",
+				"fibre": "2.9"
+			},
+			{
+				"name": "Moong dal",
+				"portion": "Big bowl",
+				"protein": "19.8",
+				"carbs": "48.3",
+				"fats": "5.2",
+				"fibre": "6.8"
+			},
+			{
+				"name": "Moong dal",
+				"portion": "Gram",
+				"protein": "6.1",
+				"carbs": "14.8",
+				"fats": "1.6",
+				"fibre": "2.1"
+			},
+			{
+				"name": "Moong daal",
+				"portion": "Small bowl",
+				"protein": "8.5",
+				"carbs": "20.8",
+				"fats": "2.3",
+				"fibre": "2.9"
+			},
+			{
+				"name": "Moong daal",
+				"portion": "Big bowl",
+				"protein": "19.8",
+				"carbs": "48.3",
+				"fats": "5.2",
+				"fibre": "6.8"
+			},
+			{
+				"name": "Moong daal",
+				"portion": "Gram",
+				"protein": "6.1",
+				"carbs": "14.8",
+				"fats": "1.6",
+				"fibre": "2.1"
+			},
+			{
+				"name": "Masoor dal ",
+				"portion": "Small bowl",
+				"protein": "7.7",
+				"carbs": "18.4",
+				"fats": "2.1",
+				"fibre": "3.6"
+			},
+			{
+				"name": "Masoor dal ",
+				"portion": "Big bowl",
+				"protein": "17.9",
+				"carbs": "42.8",
+				"fats": "4.9",
+				"fibre": "8.4"
+			},
+			{
+				"name": "Masoor dal ",
+				"portion": "Gram",
+				"protein": "5.5",
+				"carbs": "13.1",
+				"fats": "1.5",
+				"fibre": "2.6"
+			},
+			{
+				"name": "Masoor daal ",
+				"portion": "Small bowl",
+				"protein": "7.7",
+				"carbs": "18.4",
+				"fats": "2.1",
+				"fibre": "3.6"
+			},
+			{
+				"name": "Masoor daal ",
+				"portion": "Big bowl",
+				"protein": "17.9",
+				"carbs": "42.8",
+				"fats": "4.9",
+				"fibre": "8.4"
+			},
+			{
+				"name": "Masoor daal ",
+				"portion": "Gram",
+				"protein": "5.5",
+				"carbs": "13.1",
+				"fats": "1.5",
+				"fibre": "2.6"
+			}
+		],
+		"vegan": [
+			{
+				"name": "Pistachios",
+				"portion": "Teacup",
+				"protein": "24.4",
+				"carbs": "19.9",
+				"fats": "65.8",
+				"fibre": "12.7"
+			},
+			{
+				"name": "Pistachios",
+				"portion": "Gram",
+				"protein": "19.8",
+				"carbs": "16.2",
+				"fats": "53.5",
+				"fibre": "10.3"
+			},
+			{
+				"name": "Baked Tempeh",
+				"portion": "One",
+				"protein": "3.7",
+				"carbs": "1.5",
+				"fats": "2.8",
+				"fibre": "0"
+			},
+			{
+				"name": "Baked Tempeh",
+				"portion": "Gram",
+				"protein": "18.5",
+				"carbs": "7.3",
+				"fats": "14",
+				"fibre": "0.1"
+			},
+			{
+				"name": "Walnuts",
+				"portion": "Gram",
+				"protein": "15.6",
+				"carbs": "11",
+				"fats": "64.5",
+				"fibre": "6.7"
+			},
+			{
+				"name": "Kidney Beans",
+				"portion": "Gram",
+				"protein": "22.9",
+				"carbs": "60.9",
+				"fats": "1.3",
+				"fibre": "24.9"
+			},
+			{
+				"name": "Kidney Beans",
+				"portion": "Small bowl",
+				"protein": "42.1",
+				"carbs": "111.5",
+				"fats": "2.4",
+				"fibre": "45.8"
+			},
+			{
+				"name": "Kidney Beans Curry",
+				"portion": "Big bowl",
+				"protein": "13.6",
+				"carbs": "39.9",
+				"fats": "6.5",
+				"fibre": "16"
+			},
+			{
+				"name": "Kidney Beans Curry",
+				"portion": "Gram",
+				"protein": "3.9",
+				"carbs": "11.4",
+				"fats": "1.9",
+				"fibre": "4.6"
+			},
+			{
+				"name": "Kidney Bean Salad",
+				"portion": "Small bowl",
+				"protein": "8.1",
+				"carbs": "22.5",
+				"fats": "0.5",
+				"fibre": "6.2"
+			},
+			{
+				"name": "Kidney Bean Salad",
+				"portion": "Big bowl",
+				"protein": "19",
+				"carbs": "52.5",
+				"fats": "1.3",
+				"fibre": "14.4"
+			},
+			{
+				"name": "Kidney Bean Salad",
+				"portion": "Gram",
+				"protein": "5.4",
+				"carbs": "15",
+				"fats": "0.4",
+				"fibre": "4.1"
+			},
+			{
+				"name": "Kidney Beans Nachos",
+				"portion": "Gram",
+				"protein": "5.6",
+				"carbs": "17.8",
+				"fats": "3.6",
+				"fibre": "3.3"
+			},
+			{
+				"name": "Kidney Beans Nachos",
+				"portion": "Small bowl",
+				"protein": "13.4",
+				"carbs": "42.8",
+				"fats": "8.7",
+				"fibre": "7.9"
+			},
+			{
+				"name": "Kidney Beans Boiled",
+				"portion": "Small bowl",
+				"protein": "9.2",
+				"carbs": "24.2",
+				"fats": "0.5",
+				"fibre": "6.8"
+			},
+			{
+				"name": "Kidney Beans Boiled",
+				"portion": "Big bowl",
+				"protein": "21.5",
+				"carbs": "56.5",
+				"fats": "1.2",
+				"fibre": "15.9"
+			},
+			{
+				"name": "Kidney Beans Boiled",
+				"portion": "Gram",
+				"protein": "8.7",
+				"carbs": "22.8",
+				"fats": "0.5",
+				"fibre": "6.4"
+			},
+			{
+				"name": "Kidney Beans Soup",
+				"portion": "Small bowl",
+				"protein": "3.7",
+				"carbs": "11.6",
+				"fats": "1.3",
+				"fibre": "4.4"
+			},
+			{
+				"name": "Kidney Beans Soup",
+				"portion": "Big bowl",
+				"protein": "8.7",
+				"carbs": "26.9",
+				"fats": "3.1",
+				"fibre": "10.3"
+			},
+			{
+				"name": "Sunflower Seeds",
+				"portion": "Gram",
+				"protein": "19.8",
+				"carbs": "17.9",
+				"fats": "52.1",
+				"fibre": "8.6"
+			},
+			{
+				"name": "Sunflower Seeds",
+				"portion": "Small bowl",
+				"protein": "27.7",
+				"carbs": "25.1",
+				"fats": "72.9",
+				"fibre": "12"
+			},
+			{
+				"name": "Roasted Peanuts",
+				"portion": "Gram",
+				"protein": "26.2",
+				"carbs": "26.7",
+				"fats": "39.8",
+				"fibre": "11"
+			},
+			{
+				"name": "Roasted Peanuts",
+				"portion": "Small bowl",
+				"protein": "38.3",
+				"carbs": "39",
+				"fats": "58.1",
+				"fibre": "16.1"
+			},
+			{
+				"name": "Soy Meat",
+				"portion": "Small bowl",
+				"protein": "23.4",
+				"carbs": "14.9",
+				"fats": "0.2",
+				"fibre": "5.9"
+			},
+			{
+				"name": "Soy Meat",
+				"portion": "Gram",
+				"protein": "52",
+				"carbs": "33",
+				"fats": "0.5",
+				"fibre": "13"
+			},
+			{
+				"name": "Soy Milk",
+				"portion": "Glass",
+				"protein": "6.5",
+				"carbs": "12.6",
+				"fats": "3.5",
+				"fibre": "0"
+			},
+			{
+				"name": "Soy Milk",
+				"portion": "ml",
+				"protein": "3.3",
+				"carbs": "6.3",
+				"fats": "1.8",
+				"fibre": "0"
+			},
+			{
+				"name": "Soy Paneer",
+				"portion": "Gram",
+				"protein": "8.1",
+				"carbs": "1.9",
+				"fats": "4.8",
+				"fibre": "0.3"
+			},
+			{
+				"name": "Soy Paneer",
+				"portion": "Small bowl",
+				"protein": "20",
+				"carbs": "4.6",
+				"fats": "11.9",
+				"fibre": "0.8"
+			},
+			{
+				"name": "Soya Chaap",
+				"portion": "Small bowl",
+				"protein": "26.6",
+				"carbs": "20.4",
+				"fats": "2.9",
+				"fibre": "7.8"
+			},
+			{
+				"name": "Soya Chaap",
+				"portion": "Big bowl",
+				"protein": "62.1",
+				"carbs": "47.7",
+				"fats": "6.6",
+				"fibre": "18.2"
+			},
+			{
+				"name": "Soya Chaap",
+				"portion": "Gram",
+				"protein": "17.8",
+				"carbs": "13.6",
+				"fats": "1.9",
+				"fibre": "5.2"
+			},
+			{
+				"name": "Soy Nuts",
+				"portion": "Small bowl",
+				"protein": "68",
+				"carbs": "56",
+				"fats": "37",
+				"fibre": "14"
+			},
+			{
+				"name": "Soy Nuts",
+				"portion": "Gram",
+				"protein": "39.5",
+				"carbs": "32.6",
+				"fats": "21.5",
+				"fibre": "8.1"
+			},
+			{
+				"name": "Soy Sticks",
+				"portion": "Small bowl",
+				"protein": "12.2",
+				"carbs": "3.6",
+				"fats": "7.2",
+				"fibre": "1.1"
+			},
+			{
+				"name": "Soy Sticks",
+				"portion": "Gram",
+				"protein": "8.1",
+				"carbs": "2.4",
+				"fats": "4.8",
+				"fibre": "0.7"
+			},
+			{
+				"name": "Soy Bread",
+				"portion": "One",
+				"protein": "3.3",
+				"carbs": "11.7",
+				"fats": "1",
+				"fibre": "0.9"
+			},
+			{
+				"name": "Soy Bread",
+				"portion": "Gram",
+				"protein": "13",
+				"carbs": "45.4",
+				"fats": "3.9",
+				"fibre": "3.5"
+			},
+			{
+				"name": "Soy Cappuccino",
+				"portion": "ml",
+				"protein": "3.3",
+				"carbs": "7.6",
+				"fats": "1.7",
+				"fibre": "0"
+			},
+			{
+				"name": "Soy Cappuccino",
+				"portion": "Glass",
+				"protein": "8.2",
+				"carbs": "19.1",
+				"fats": "4.3",
+				"fibre": "0"
+			},
+			{
+				"name": "Soya Chunks",
+				"portion": "Gram",
+				"protein": "52",
+				"carbs": "33",
+				"fats": "0.5",
+				"fibre": "13"
+			},
+			{
+				"name": "Soya Chunks",
+				"portion": "Small bowl",
+				"protein": "23.4",
+				"carbs": "14.9",
+				"fats": "0.2",
+				"fibre": "5.9"
+			},
+			{
+				"name": "Soya Bean",
+				"portion": "Small bowl",
+				"protein": "80.4",
+				"carbs": "38.9",
+				"fats": "36.3",
+				"fibre": "42.8"
+			},
+			{
+				"name": "Soya Bean",
+				"portion": "Gram",
+				"protein": "43.2",
+				"carbs": "20.9",
+				"fats": "19.5",
+				"fibre": "23"
+			},
+			{
+				"name": "Soya Bhurji",
+				"portion": "Gram",
+				"protein": "7.8",
+				"carbs": "9.5",
+				"fats": "4.4",
+				"fibre": "3.4"
+			},
+			{
+				"name": "Soya Bhurji",
+				"portion": "Big bowl",
+				"protein": "18",
+				"carbs": "22.2",
+				"fats": "10.3",
+				"fibre": "7.8"
+			},
+			{
+				"name": "Green Moong Cheela",
+				"portion": "One",
+				"protein": "6",
+				"carbs": "16.1",
+				"fats": "4.9",
+				"fibre": "2.3"
+			},
+			{
+				"name": "Green Moong Cheela",
+				"portion": "Gram",
+				"protein": "7.5",
+				"carbs": "20.2",
+				"fats": "6.1",
+				"fibre": "2.8"
+			},
+			{
+				"name": "Pumpkin Seeds",
+				"portion": "Gram",
+				"protein": "24.3",
+				"carbs": "15.6",
+				"fats": "47.2",
+				"fibre": "3.3"
+			},
+			{
+				"name": "Quinoa Chickpea Salad ",
+				"portion": "Small bowl",
+				"protein": "2.9",
+				"carbs": "12",
+				"fats": "0.9",
+				"fibre": "4.5"
+			},
+			{
+				"name": "Quinoa Chickpea Salad ",
+				"portion": "Big bowl",
+				"protein": "6.9",
+				"carbs": "28",
+				"fats": "2.2",
+				"fibre": "10.5"
+			},
+			{
+				"name": "Quinoa Chickpea Salad ",
+				"portion": "Gram",
+				"protein": "3.5",
+				"carbs": "14.4",
+				"fats": "1.1",
+				"fibre": "5.4"
+			},
+			{
+				"name": "Quinoa Salad ",
+				"portion": "Small bowl",
+				"protein": "2.2",
+				"carbs": "9.2",
+				"fats": "4.3",
+				"fibre": "1.8"
+			},
+			{
+				"name": "Quinoa Salad ",
+				"portion": "Big bowl",
+				"protein": "5.2",
+				"carbs": "21.4",
+				"fats": "10",
+				"fibre": "4.2"
+			},
+			{
+				"name": "Quinoa Salad ",
+				"portion": "Gram",
+				"protein": "2.2",
+				"carbs": "9.2",
+				"fats": "4.3",
+				"fibre": "1.8"
+			},
+			{
+				"name": "Stir Fried Vegetables With Tofu",
+				"portion": "Small bowl",
+				"protein": "5.3",
+				"carbs": "2.8",
+				"fats": "4.3",
+				"fibre": "0.6"
+			},
+			{
+				"name": "Stir Fried Vegetables With Tofu",
+				"portion": "Big bowl",
+				"protein": "12.2",
+				"carbs": "6.5",
+				"fats": "9.9",
+				"fibre": "1.4"
+			},
+			{
+				"name": "Stir Fried Vegetables With Tofu",
+				"portion": "Gram",
+				"protein": "5.3",
+				"carbs": "2.8",
+				"fats": "4.3",
+				"fibre": "0.6"
+			},
+			{
+				"name": "Soya Moong (Mung) Dal Khichadi ",
+				"portion": "Small bowl",
+				"protein": "3.8",
+				"carbs": "10.5",
+				"fats": "2",
+				"fibre": "1.5"
+			},
+			{
+				"name": "Soya Moong (Mung) Dal Khichadi ",
+				"portion": "Big bowl",
+				"protein": "8.8",
+				"carbs": "24.4",
+				"fats": "4.6",
+				"fibre": "3.4"
+			},
+			{
+				"name": "Soya Moong (Mung) Dal Khichadi ",
+				"portion": "Gram",
+				"protein": "3.8",
+				"carbs": "10.5",
+				"fats": "2",
+				"fibre": "1.5"
+			},
+			{
+				"name": "Black Bean Burrito ",
+				"portion": "One",
+				"protein": "10.8",
+				"carbs": "31.1",
+				"fats": "5.6",
+				"fibre": "6.2"
+			},
+			{
+				"name": "Black Bean Burrito ",
+				"portion": "Gram",
+				"protein": "5.8",
+				"carbs": "16.6",
+				"fats": "3",
+				"fibre": "3.3"
+			},
+			{
+				"name": "Black Bean Salad ",
+				"portion": "Big bowl",
+				"protein": "6.6",
+				"carbs": "18.7",
+				"fats": "4.4",
+				"fibre": "6.5"
+			},
+			{
+				"name": "Black Bean Salad ",
+				"portion": "Gram",
+				"protein": "3.4",
+				"carbs": "9.6",
+				"fats": "2.3",
+				"fibre": "3.3"
+			},
+			{
+				"name": "Protein Bar",
+				"portion": "One",
+				"protein": "4.8",
+				"carbs": "16",
+				"fats": "11.2",
+				"fibre": "3.8"
+			},
+			{
+				"name": "Protein Bar",
+				"portion": "Gram",
+				"protein": "12.5",
+				"carbs": "42.2",
+				"fats": "29.5",
+				"fibre": "10.1"
+			},
+			{
+				"name": "Coconut Water",
+				"portion": "glass",
+				"protein": "3.5",
+				"carbs": "11",
+				"fats": "0.2",
+				"fibre": "2.8"
+			},
+			{
+				"name": "Coconut Water",
+				"portion": "ml",
+				"protein": "1.4",
+				"carbs": "4.4",
+				"fats": "0.1",
+				"fibre": "1.1"
+			},
+			{
+				"name": "Soya Upma",
+				"portion": "Small bowl",
+				"protein": "7.2",
+				"carbs": "10.5",
+				"fats": "2",
+				"fibre": "3.6"
+			},
+			{
+				"name": "Soya Upma",
+				"portion": "Gram",
+				"protein": "5.5",
+				"carbs": "8.1",
+				"fats": "1.5",
+				"fibre": "2.8"
+			},
+			{
+				"name": "Chickpea Curry",
+				"portion": "Small bowl",
+				"protein": "3.3",
+				"carbs": "13.4",
+				"fats": "8.1",
+				"fibre": "5.8"
+			},
+			{
+				"name": "Chickpea Curry",
+				"portion": "Big bowl",
+				"protein": "7.7",
+				"carbs": "31.2",
+				"fats": "18.8",
+				"fibre": "13.4"
+			},
+			{
+				"name": "Chickpea Curry",
+				"portion": "Gram",
+				"protein": "2.2",
+				"carbs": "8.9",
+				"fats": "5.4",
+				"fibre": "3.8"
+			},
+			{
+				"name": "Steamed Chickpea ",
+				"portion": "Small bowl",
+				"protein": "7.6",
+				"carbs": "27.2",
+				"fats": "2.4",
+				"fibre": "12.6"
+			},
+			{
+				"name": "Steamed Chickpea ",
+				"portion": "Big bowl",
+				"protein": "17.9",
+				"carbs": "63.8",
+				"fats": "5.6",
+				"fibre": "29.7"
+			},
+			{
+				"name": "Steamed Chickpea ",
+				"portion": "Gram",
+				"protein": "7.8",
+				"carbs": "27.7",
+				"fats": "2.4",
+				"fibre": "12.9"
+			},
+			{
+				"name": "Chia Seeds",
+				"portion": "Gram",
+				"protein": "16.5",
+				"carbs": "42.1",
+				"fats": "30.7",
+				"fibre": "34.4"
+			},
+			{
+				"name": "Chia Seeds Sharbat ",
+				"portion": "Glass",
+				"protein": "1.2",
+				"carbs": "17",
+				"fats": "2.1",
+				"fibre": "2.4"
+			},
+			{
+				"name": "Chia Seeds Sharbat ",
+				"portion": "ml",
+				"protein": "0.5",
+				"carbs": "6.8",
+				"fats": "0.9",
+				"fibre": "1"
+			},
+			{
+				"name": "Soy Milk ",
+				"portion": "ml",
+				"protein": "6.5",
+				"carbs": "12.6",
+				"fats": "3.5",
+				"fibre": "0"
+			},
+			{
+				"name": "Steamed Broccoli",
+				"portion": "Gram",
+				"protein": "2.4",
+				"carbs": "7.1",
+				"fats": "0.4",
+				"fibre": "3.3"
+			},
+			{
+				"name": "Broccoli Soup ",
+				"portion": "Small bowl",
+				"protein": "4.4",
+				"carbs": "9.6",
+				"fats": "6.2",
+				"fibre": "1.4"
+			},
+			{
+				"name": "Broccoli Soup ",
+				"portion": "Big bowl",
+				"protein": "10.2",
+				"carbs": "22.4",
+				"fats": "14.4",
+				"fibre": "3.2"
+			},
+			{
+				"name": "Broccoli Soup ",
+				"portion": "Gram",
+				"protein": "2.9",
+				"carbs": "6.4",
+				"fats": "4.1",
+				"fibre": "0.9"
+			},
+			{
+				"name": "Avocado",
+				"portion": "One",
+				"protein": "3.4",
+				"carbs": "1.6",
+				"fats": "45.8",
+				"fibre": "13.5"
+			},
+			{
+				"name": "Avocado",
+				"portion": "Gram",
+				"protein": "1.7",
+				"carbs": "0.8",
+				"fats": "22.8",
+				"fibre": "6.7"
+			},
+			{
+				"name": "Avocado Toast ",
+				"portion": "One",
+				"protein": "2.6",
+				"carbs": "16",
+				"fats": "9.2",
+				"fibre": "4.1"
+			},
+			{
+				"name": "Avocado Toast ",
+				"portion": "Gram",
+				"protein": "3",
+				"carbs": "18.9",
+				"fats": "10.9",
+				"fibre": "4.9"
+			},
+			{
+				"name": "Avocado Smoothie",
+				"portion": "One",
+				"protein": "6.6",
+				"carbs": "14",
+				"fats": "24.6",
+				"fibre": "5.2"
+			},
+			{
+				"name": "Avocado Smoothie",
+				"portion": "ml",
+				"protein": "2.7",
+				"carbs": "5.6",
+				"fats": "9.8",
+				"fibre": "2.1"
+			},
+			{
+				"name": "Boiled Quinoa",
+				"portion": "Gram",
+				"protein": "4.4",
+				"carbs": "21.3",
+				"fats": "1.9",
+				"fibre": "2.8"
+			},
+			{
+				"name": "Quinoa Salad",
+				"portion": "Small bowl",
+				"protein": "2.2",
+				"carbs": "9.2",
+				"fats": "4.3",
+				"fibre": "1.8"
+			},
+			{
+				"name": "Quinoa Salad",
+				"portion": "Big bowl",
+				"protein": "5.2",
+				"carbs": "21.4",
+				"fats": "10",
+				"fibre": "4.2"
+			},
+			{
+				"name": "Quinoa Salad",
+				"portion": "Gram",
+				"protein": "2.2",
+				"carbs": "9.2",
+				"fats": "4.3",
+				"fibre": "1.8"
+			},
+			{
+				"name": "Buckwheat Porridge ",
+				"portion": "Small bowl",
+				"protein": "3.6",
+				"carbs": "19.2",
+				"fats": "1.7",
+				"fibre": "2.7"
+			},
+			{
+				"name": "Buckwheat Porridge ",
+				"portion": "Big bowl",
+				"protein": "8.7",
+				"carbs": "46.6",
+				"fats": "4.2",
+				"fibre": "6.6"
+			},
+			{
+				"name": "Buckwheat Porridge ",
+				"portion": "Gram",
+				"protein": "2.6",
+				"carbs": "13.7",
+				"fats": "1.2",
+				"fibre": "1.9"
+			},
+			{
+				"name": "Guava",
+				"portion": "One",
+				"protein": "1.8",
+				"carbs": "10",
+				"fats": "0.7",
+				"fibre": "3.8"
+			},
+			{
+				"name": "Guava",
+				"portion": "Gram",
+				"protein": "2.5",
+				"carbs": "14.3",
+				"fats": "0.9",
+				"fibre": "5.4"
+			},
+			{
+				"name": "Guava Juice",
+				"portion": "Glass",
+				"protein": "3.7",
+				"carbs": "24.5",
+				"fats": "1.4",
+				"fibre": "7.8"
+			},
+			{
+				"name": "Guava Juice",
+				"portion": "ml",
+				"protein": "1.5",
+				"carbs": "9.8",
+				"fats": "0.5",
+				"fibre": "3.1"
+			},
+			{
+				"name": "Dal",
+				"portion": "Small bowl",
+				"protein": "8.5",
+				"carbs": "20.8",
+				"fats": "2.3",
+				"fibre": "2.9"
+			},
+			{
+				"name": "Dal",
+				"portion": "Big bowl",
+				"protein": "19.8",
+				"carbs": "48.3",
+				"fats": "5.2",
+				"fibre": "6.8"
+			},
+			{
+				"name": "Dal",
+				"portion": "Gram",
+				"protein": "6.1",
+				"carbs": "14.8",
+				"fats": "1.6",
+				"fibre": "2.1"
+			},
+			{
+				"name": "Daal",
+				"portion": "Small bowl",
+				"protein": "8.5",
+				"carbs": "20.8",
+				"fats": "2.3",
+				"fibre": "2.9"
+			},
+			{
+				"name": "Daal",
+				"portion": "Big bowl",
+				"protein": "19.8",
+				"carbs": "48.3",
+				"fats": "5.2",
+				"fibre": "6.8"
+			},
+			{
+				"name": "Daal",
+				"portion": "Gram",
+				"protein": "6.1",
+				"carbs": "14.8",
+				"fats": "1.6",
+				"fibre": "2.1"
+			},
+			{
+				"name": "Tur dal",
+				"portion": "Small bowl",
+				"protein": "6.9",
+				"carbs": "20.1",
+				"fats": "1.9",
+				"fibre": "3.5"
+			},
+			{
+				"name": "Tur dal",
+				"portion": "Big bowl",
+				"protein": "16.1",
+				"carbs": "46.9",
+				"fats": "4.4",
+				"fibre": "8.2"
+			},
+			{
+				"name": "Tur dal",
+				"portion": "Gram",
+				"protein": "5",
+				"carbs": "14.4",
+				"fats": "1.4",
+				"fibre": "2.5"
+			},
+			{
+				"name": "Toor dal",
+				"portion": "Small bowl",
+				"protein": "6.9",
+				"carbs": "20.1",
+				"fats": "1.9",
+				"fibre": "3.5"
+			},
+			{
+				"name": "Toor dal",
+				"portion": "Big bowl",
+				"protein": "16.1",
+				"carbs": "46.9",
+				"fats": "4.4",
+				"fibre": "8.2"
+			},
+			{
+				"name": "Toor dal",
+				"portion": "Gram",
+				"protein": "5",
+				"carbs": "14.4",
+				"fats": "1.4",
+				"fibre": "2.5"
+			},
+			{
+				"name": "Tur daal",
+				"portion": "Small bowl",
+				"protein": "6.9",
+				"carbs": "20.1",
+				"fats": "1.9",
+				"fibre": "3.5"
+			},
+			{
+				"name": "Tur daal",
+				"portion": "Big bowl",
+				"protein": "16.1",
+				"carbs": "46.9",
+				"fats": "4.4",
+				"fibre": "8.2"
+			},
+			{
+				"name": "Tur daal",
+				"portion": "Gram",
+				"protein": "5",
+				"carbs": "14.4",
+				"fats": "1.4",
+				"fibre": "2.5"
+			},
+			{
+				"name": "Toor daal",
+				"portion": "Small bowl",
+				"protein": "6.9",
+				"carbs": "20.1",
+				"fats": "1.9",
+				"fibre": "3.5"
+			},
+			{
+				"name": "Toor daal",
+				"portion": "Big bowl",
+				"protein": "16.1",
+				"carbs": "46.9",
+				"fats": "4.4",
+				"fibre": "8.2"
+			},
+			{
+				"name": "Toor daal",
+				"portion": "Gram",
+				"protein": "5",
+				"carbs": "14.4",
+				"fats": "1.4",
+				"fibre": "2.5"
+			},
+			{
+				"name": "Dal tadka",
+				"portion": "Small bowl",
+				"protein": "6.9",
+				"carbs": "20.1",
+				"fats": "1.9",
+				"fibre": "3.5"
+			},
+			{
+				"name": "Dal tadka",
+				"portion": "Big bowl",
+				"protein": "16.1",
+				"carbs": "46.9",
+				"fats": "4.4",
+				"fibre": "8.2"
+			},
+			{
+				"name": "Dal tadka",
+				"portion": "Gram",
+				"protein": "5",
+				"carbs": "14.4",
+				"fats": "1.4",
+				"fibre": "2.5"
+			},
+			{
+				"name": "Daal tadka",
+				"portion": "Small bowl",
+				"protein": "6.9",
+				"carbs": "20.1",
+				"fats": "1.9",
+				"fibre": "3.5"
+			},
+			{
+				"name": "Daal tadka",
+				"portion": "Big bowl",
+				"protein": "16.1",
+				"carbs": "46.9",
+				"fats": "4.4",
+				"fibre": "8.2"
+			},
+			{
+				"name": "Daal tadka",
+				"portion": "Gram",
+				"protein": "5",
+				"carbs": "14.4",
+				"fats": "1.4",
+				"fibre": "2.5"
+			},
+			{
+				"name": "Kali Udad dal",
+				"portion": "Small bowl",
+				"protein": "8.3",
+				"carbs": "21.1",
+				"fats": "3.8",
+				"fibre": "4.2"
+			},
+			{
+				"name": "Kali Udad dal",
+				"portion": "Big bowl",
+				"protein": "19.3",
+				"carbs": "49",
+				"fats": "8.8",
+				"fibre": "9.8"
+			},
+			{
+				"name": "Kali Udad dal",
+				"portion": "Gram",
+				"protein": "5.9",
+				"carbs": "15",
+				"fats": "2.7",
+				"fibre": "3"
+			},
+			{
+				"name": "Kali Udad daal",
+				"portion": "Small bowl",
+				"protein": "8.3",
+				"carbs": "21.1",
+				"fats": "3.8",
+				"fibre": "4.2"
+			},
+			{
+				"name": "Kali Udad daal",
+				"portion": "Big bowl",
+				"protein": "19.3",
+				"carbs": "49",
+				"fats": "8.8",
+				"fibre": "9.8"
+			},
+			{
+				"name": "Kali Udad daal",
+				"portion": "Gram",
+				"protein": "5.9",
+				"carbs": "15",
+				"fats": "2.7",
+				"fibre": "3"
+			},
+			{
+				"name": "Moong dal",
+				"portion": "Small bowl",
+				"protein": "8.5",
+				"carbs": "20.8",
+				"fats": "2.3",
+				"fibre": "2.9"
+			},
+			{
+				"name": "Moong dal",
+				"portion": "Big bowl",
+				"protein": "19.8",
+				"carbs": "48.3",
+				"fats": "5.2",
+				"fibre": "6.8"
+			},
+			{
+				"name": "Moong dal",
+				"portion": "Gram",
+				"protein": "6.1",
+				"carbs": "14.8",
+				"fats": "1.6",
+				"fibre": "2.1"
+			},
+			{
+				"name": "Moong daal",
+				"portion": "Small bowl",
+				"protein": "8.5",
+				"carbs": "20.8",
+				"fats": "2.3",
+				"fibre": "2.9"
+			},
+			{
+				"name": "Moong daal",
+				"portion": "Big bowl",
+				"protein": "19.8",
+				"carbs": "48.3",
+				"fats": "5.2",
+				"fibre": "6.8"
+			},
+			{
+				"name": "Moong daal",
+				"portion": "Gram",
+				"protein": "6.1",
+				"carbs": "14.8",
+				"fats": "1.6",
+				"fibre": "2.1"
+			},
+			{
+				"name": "Masoor dal ",
+				"portion": "Small bowl",
+				"protein": "7.7",
+				"carbs": "18.4",
+				"fats": "2.1",
+				"fibre": "3.6"
+			},
+			{
+				"name": "Masoor dal ",
+				"portion": "Big bowl",
+				"protein": "17.9",
+				"carbs": "42.8",
+				"fats": "4.9",
+				"fibre": "8.4"
+			},
+			{
+				"name": "Masoor dal ",
+				"portion": "Gram",
+				"protein": "5.5",
+				"carbs": "13.1",
+				"fats": "1.5",
+				"fibre": "2.6"
+			},
+			{
+				"name": "Masoor daal ",
+				"portion": "Small bowl",
+				"protein": "7.7",
+				"carbs": "18.4",
+				"fats": "2.1",
+				"fibre": "3.6"
+			},
+			{
+				"name": "Masoor daal ",
+				"portion": "Big bowl",
+				"protein": "17.9",
+				"carbs": "42.8",
+				"fats": "4.9",
+				"fibre": "8.4"
+			},
+			{
+				"name": "Masoor daal ",
+				"portion": "Gram",
+				"protein": "5.5",
+				"carbs": "13.1",
+				"fats": "1.5",
+				"fibre": "2.6"
+			}
+		]
+	};
+}

@@ -80,7 +80,7 @@
                                         <option value="vegetarian">Vegetarian</option>
                                         <option value="vegan">Vegan</option>
                                         <option value="eggitarian">Eggitarian</option>
-                                        <option value="non-vegetarian">Non-Vegetarian</option>
+                                        <option value="nonvegetarian">Non-Vegetarian</option>
                                     </select>
                                 </div>
                             </div>
@@ -94,7 +94,7 @@
             </div>
         </div>
             
-        <div class="container step step-2">
+        <div class="container step step-2" style="display: none;">
             <div class="row">
                 <div class="col col-sm">
                     <form>
@@ -186,6 +186,7 @@
         <script src="protein-info.js"></script>
         <script>        
             var food = loadData();
+            var suggestedItems = suggestedFoodItems();
             var uniqueFoodNames = loadUniqueName(food);
             var proteinRequired = 0;
             var age = "", gender = "", weight = "", height = "", active = "", foodPrefer = "";
@@ -380,9 +381,12 @@
                 foodItem = formRow.find(".suggest-food").val();
                 foodQuantity = formRow.find(".portion-quantity").length > 0 && formRow.find(".portion-quantity").val() == "" ? 0 : parseFloat($(elem).find(".portion-quantity").val());
                 foodPortion = formRow.find(".portion-quantity").length > 0 ? formRow.find(".portion-type").val() : 0;
-
-                
             }
+
+            function suggestions(){
+                console.log(suggestedItems[foodPrefer]);
+            }
+
         </script>
     </body>
 </html>
